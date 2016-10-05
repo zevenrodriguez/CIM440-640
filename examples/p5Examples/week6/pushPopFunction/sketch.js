@@ -27,7 +27,7 @@ function multiDrawing(posX, posY, scales){
   push();
   fill(255)
   strokeWeight(1);
-  translate(posX, posY);
+  translate(posX - (centerX), posY - (centerY));
   scale(scales);
   //face
   ellipse(centerX, centerY, 100, 100);

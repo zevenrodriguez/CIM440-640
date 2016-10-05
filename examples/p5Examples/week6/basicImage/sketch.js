@@ -1,5 +1,4 @@
 var img;  // Declare variable 'img'.
-var bubbleImg;
 
 function setup() {
   createCanvas(400, 500);

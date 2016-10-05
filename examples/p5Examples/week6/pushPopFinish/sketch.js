@@ -16,7 +16,7 @@ function draw() {
   push();
   fill(255)
   strokeWeight(1);
-  translate(mouseX - (centerX * scaling), mouseY - (centerY * scaling));
+  translate(mouseX - (centerX * scaling)  , mouseY  - (centerX * scaling) );
   scale(scaling);
   //face
   ellipse(centerX, centerY, 100, 100);
