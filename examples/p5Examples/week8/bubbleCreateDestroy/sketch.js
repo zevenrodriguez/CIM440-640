@@ -29,8 +29,6 @@ function draw() {
         multiBubbles.pop();
       }
     }
-
-
     prevMillis = millis();
   }
 
@@ -53,8 +51,6 @@ function bubbles(tempX, tempY, tempDiameter) {
   this.y = tempY;
   this.diameter = tempDiameter;
   this.counter = 100;
-  this.fadeDone = false;
-  this.speed = 0.05;
 
 
   this.display = function() {

@@ -1,4 +1,3 @@
-var currentFade;
 var multiBubbles = [];
 
 var bubbleSlider;
@@ -29,7 +28,7 @@ function draw() {
     var change = currentBubbleSlider - prevBubbleSlider;
     if (change > 0) {
 
-      for (var i = 0; i < currentBubbleSlider - prevBubbleSlider; i++) {
+      for (var i = 0; i < abs(change); i++) {
         var newBubble = new bubbles(random(width), random(height), 100);
         multiBubbles.push(newBubble);
       }
