@@ -4,8 +4,8 @@ var multiBubbles = [];
 function setup() {
   createCanvas(1000, 1000);
   //bubble0 = new bubbles(random(width), random(height), 100);
-  for (var i = 0; i < 1000; i++) {
-    var newBubble = new bubbles(random(width), random(height), random(50, 60));
+  for (var i = 0; i < 20; i++) {
+    var newBubble = new bubbles(random(width), random(height), random(50, 100));
     multiBubbles.push(newBubble);
   }
   noStroke();
@@ -65,18 +65,15 @@ function bubbles(tempX, tempY, tempDiameter) {
   }
 
 
-
-
-
   this.check = function(currentIndex) {
     for (var i = 0; i < multiBubbles.length; i++) {
 
       if (i != currentIndex) {
         var bubbleDistance = dist(this.x + this.diameter / 2, this.y + this.diameter / 2, multiBubbles[i].x + this.diameter / 2, multiBubbles[i].y + this.diameter / 2);
         if (bubbleDistance < this.diameter) {
-          this.update(true);
-          //this.xspeed = -this.xspeed;
-          //this.yspeed = -this.yspeed;
+          //this.update(true);
+          this.xspeed = -this.xspeed;
+          this.yspeed = -this.yspeed;
 
 
           //console.log(bubbleDistance);

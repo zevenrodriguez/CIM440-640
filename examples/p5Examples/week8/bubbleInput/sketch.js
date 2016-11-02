@@ -1,10 +1,6 @@
-var currentFade;
 var multiBubbles = [];
 
-var prevMillis = 0;
-var interval = 100;
-
-var input, button, createBubbles;
+var input, button;
 
 
 function setup() {
@@ -36,7 +32,9 @@ function draw() {
 
 function createBubbles() {
   var number = input.value();
-
+  
+  multiBubbles = [];
+  
   for (var i = 0; i < number; i++) {
     var newBubble = new bubbles(random(width), random(height), 100);
     multiBubbles.push(newBubble);

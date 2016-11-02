@@ -22,6 +22,8 @@ function draw() {
   background(255);
 
   var currentBubbleSlider = bubbleSlider.value();
+  
+  
   console.log(currentBubbleSlider);
   if (currentBubbleSlider != prevBubbleSlider) {
 
