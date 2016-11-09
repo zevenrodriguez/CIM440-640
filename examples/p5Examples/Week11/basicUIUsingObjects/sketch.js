@@ -58,8 +58,8 @@ function draw() {
   }
 
   if (playSound == true) {
-    playSound = false;
-    stopSound = false;
+     playSound = false;
+     stopSound = false;
     soundFile.setVolume(1);
     soundFile.play();
   }
@@ -82,12 +82,6 @@ function buttonObject(tempX, tempY, tempBsize, tempImg, tempBtype) {
   this.buttonType = tempBtype;
 
   this.display = function(mousedOver) {
-
-    if (mousedOver == true) {
-      rectMode(CENTER);
-      fill(100, 50);
-      rect(this.x, this.y, this.bSize, this.bSize);
-    }
 
     imageMode(CENTER);
     image(this.buttonImage, this.x, this.y, this.bSize, this.bSize);
