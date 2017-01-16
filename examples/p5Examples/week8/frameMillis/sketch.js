@@ -3,7 +3,7 @@ var frameArray = [];
 var currentFrame = 0;
 
 var prevMillis = 0;
-var interval = 1000;
+var interval = 5000;
 
 function preload() {
   for (var frames = 0; frames < frameAmounts; frames++) {
