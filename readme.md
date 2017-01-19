@@ -12,7 +12,7 @@ Office Hours: [https://zeven.youcanbook.me/](https://zeven.youcanbook.me/)
 ###[Week 1: Jan 17th - Introduction to Creative Coding](https://github.com/zevenrodriguez/CIM540-640/tree/master/week1)
 * Introduction to Creative Coding
 * Getting started with Github
-* Creating a Wiki
+
 
 _Practice_
 * Create a repository
