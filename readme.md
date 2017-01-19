@@ -16,7 +16,6 @@ Office Hours: [https://zeven.youcanbook.me/](https://zeven.youcanbook.me/)
 
 _Practice_
 * Create a repository
-* Create a Wiki
 * Upload readme
 
 ###Week 2: Jan 24th - Getting Started p5js, Basic Drawing
