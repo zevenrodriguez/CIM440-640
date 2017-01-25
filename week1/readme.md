@@ -106,3 +106,7 @@ If configured correctly, will upload your changes to github.
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
+##Homework
+
+* Create a repository
+* Add readme.md file
