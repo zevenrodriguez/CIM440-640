@@ -9,6 +9,8 @@ Office: Francis L. Wolfson Building 2022
 Office Hours: [https://zeven.youcanbook.me/](https://zeven.youcanbook.me/)
 
 
+##[Syllabus]()
+
 ###[Week 1: Jan 17th - Introduction to Creative Coding](https://github.com/zevenrodriguez/CIM540-640/tree/master/week1)
 * Introduction to Creative Coding
 * Getting started with Github
