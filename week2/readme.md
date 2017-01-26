@@ -12,6 +12,8 @@ p5js is a javascript library based off Java/Processing. It was developed by Laur
 
 https://www.velardo.org/projects/
 
+##Structure
+
 ####What is a variable?
 
 A variable is the smallest unit in a programming language. Variables are used as human readable references to numbers, characters, words, sentences, true, and false. 
