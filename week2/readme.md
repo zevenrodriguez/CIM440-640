@@ -198,22 +198,28 @@ triangle()
 ```
 ######Fill
 
-```fill(255,125,50);```
+fill(255,125,50);
 
 Fill function, similar to background fills shapes with color. Once fill is called it affects shapes below it.
 
 ######Stroke
 
-```stroke(255,125,50);```
+stroke(255,125,50);
 
 
 Sets the stroke color for shape. Similar to Fill when used it affects all of the following shape strokes.
+
+######strokeWeight
+
+strokeWeight(1);
+
+Sets the thickness of the stroke
 
 ######Color
 
 You can set color as a variable.
 
-```var c = color(255, 204, 0);```
+var c = color(255, 204, 0);
 
 
 ######mouseX and mouseY
@@ -233,7 +239,7 @@ width and height are built in variables that give you access to your canvas widt
 
 Choose random number from max and min, or from an array of numbers.
 
-```var r = random(50);```
+var r = random(50);
 
 
 ######map
