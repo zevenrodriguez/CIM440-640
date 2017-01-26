@@ -34,7 +34,7 @@ A library is a collection of variables, functions, and objects that work togethe
 
 For every project download or copy a new project.
 
-#####STRUCTURE
+##STRUCTURE
 
 ######setup
 
@@ -110,9 +110,9 @@ In this example, num will be printed once in the setup and infinitely in the dra
 
 To find out what your variables are doing throughout your code use:
 
-```console.log(VARIABLE);```
+``` console.log(VARIABLE); ```
 
-######COMMENTS
+#####COMMENTS
 
 A comment is a method of documenting your code. This is always useful not only for you, but for others who want to learn your thought process. Comments can also be useful as a debugging tool to take out or test snippets of code without having to make making big changes.
 
