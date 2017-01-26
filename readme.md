@@ -20,7 +20,7 @@ _Practice_
 * Create a repository
 * Upload readme
 
-###Week 2: Jan 24th - Getting Started p5js, Basic Drawing
+###[Week 2: Jan 24th - Getting Started p5js, Basic Drawing](https://github.com/zevenrodriguez/CIM540-640/tree/master/week2)
 
 _Practice_
 * Use Simples shapes to create a character or abstract art
