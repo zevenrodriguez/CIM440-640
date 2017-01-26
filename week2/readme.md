@@ -196,7 +196,18 @@ rect()
 
 triangle()
 ```
+######Fill
 
+```fill(255,125,50);```
+
+Fill function, similar to background fills shapes with color. Once fill is called it affects shapes below it.
+
+######Stroke
+
+```stroke(255,125,50);```
+
+
+Sets the stroke color for shape. Similar to Fill when used it affects all of the following shape strokes.
 
 ######Color
 
