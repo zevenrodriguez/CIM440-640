@@ -51,7 +51,8 @@ function draw() {
 }
 ```
 
-Using variables and scope
+
+#####Using variables and scope
 
 Variables can be declared throughout your program.
 
@@ -104,6 +105,20 @@ In this example, num will be printed once in the setup and infinitely in the dra
 To find out what your variables are doing throughout your code use:
 
 ```console.log(VARIABLE);```
+
+######COMMENTS
+
+```
+//This is a single line comment
+
+/*
+This 
+is
+a
+multi-line
+Comment
+*/
+```
 
 Remember that if you run console.log in the draw loop, it will keep printing your variable infinitely.
 
