@@ -110,7 +110,7 @@ In this example, num will be printed once in the setup and infinitely in the dra
 
 To find out what your variables are doing throughout your code use:
 
-``` console.log(VARIABLE); ```
+console.log(VARIABLE);
 
 #####COMMENTS
 
