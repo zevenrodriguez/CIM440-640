@@ -12,7 +12,11 @@ p5js is a javascript library based off Java/Processing. It was developed by Laur
 
 https://www.velardo.org/projects/
 
-A comment is a method of documenting your code. This is always useful not only for you, but for others who want to learn your thought process. Comments can also be useful as a debugging tool to take out or test snippets of code without having to make making big changes.
+####What is a variable?
+
+A variable is the smallest unit in a programming language. Variables are used as human readable references to numbers, characters, words, sentences, true, and false. 
+
+``` var num = 100; ```
 
 ####What is a function?
 
@@ -107,6 +111,8 @@ To find out what your variables are doing throughout your code use:
 ```console.log(VARIABLE);```
 
 ######COMMENTS
+
+A comment is a method of documenting your code. This is always useful not only for you, but for others who want to learn your thought process. Comments can also be useful as a debugging tool to take out or test snippets of code without having to make making big changes.
 
 ```
 //This is a single line comment
