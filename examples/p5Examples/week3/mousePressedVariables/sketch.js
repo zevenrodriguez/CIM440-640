@@ -1,6 +1,6 @@
 var backColor = 0;
 function setup() {
-  
+
 }
 
 function draw() {
