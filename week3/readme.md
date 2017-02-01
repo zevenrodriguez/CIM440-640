@@ -96,13 +96,41 @@ function draw() {
 
 #####Using the Mouse
 
+[mousePressedReleased](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week3/mousePressedReleased/sketch.js)
 
+[mousePressedVariables](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week3/mousePressedVariables/sketch.js)
 
-mousePressedReleased
+####Conditionals
 
-mousePressedVariables
+#####Types of Conditionals
 
+> Greater then
 
+< Less then
 
+>= Greater or Equal then
+
+<= Less or Equal then
+
+! not Equal
+
+&& And
+
+|| Or
+
+CONDITIONAL EXAMPLES
+
+[basicBoolean](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week3/basicBoolean/sketch.js)
+
+[mouseIsPressed](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week3/mouseIsPressed/sketch.js)
+
+[if, else if, else](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week3/ifelseifelse/sketch.js)
+
+#Homework
+
+Using your character add 2 interactions. They can include:
+
+* Changing color using mousePressed and mouseReleased
+* Mapping a shape or color
 
 

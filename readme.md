@@ -25,7 +25,7 @@ _Practice_
 _Practice_
 * Use Simples shapes to create a character or abstract art
 
-###Week 3: Jan 31st - Adding Interaction, Conditionals, Mouse Position
+###[Week 3: Jan 31st - Adding Interaction, Conditionals, Mouse Position](https://github.com/zevenrodriguez/CIM540-640/tree/master/week3)
 
 _Practice_ 
 * Use your Mouse to interact with screen elements
