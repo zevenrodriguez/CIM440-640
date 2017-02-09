@@ -34,4 +34,4 @@ if, else if, else
 Practice: 
 
 Make a shape move up and down the canvas.
-Divide the canvas into 2 vertical areas. Hovering over each area changes the background color. When hovering on the top area an ellipse should move up, on the bottom half it should move down.
+Divide the canvas into 2 horizontally areas. Hovering over each area changes the background color. When hovering on the top area an ellipse should move up, on the bottom half it should move down.
