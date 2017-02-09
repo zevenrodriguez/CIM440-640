@@ -27,27 +27,27 @@ function draw() {
 
     }
 
-//    if (ballDir == true) {
-//        counter = counter + 1;
-//    }
-//
-//    if (ballDir == false) {
-//        counter = counter - 1;
-//    }
+    //    if (ballDir == true) {
+    //        counter = counter + 1;
+    //    }
+    //
+    //    if (ballDir == false) {
+    //        counter = counter - 1;
+    //    }
 
-    if(ballDir == true){
+    if (ballDir == true) {
         counter = counter + 1;
-    }else{
+    } else {
         counter = counter - 1;
     }
 
-    if(counter >= 0 && counter <= 200){
+    if (counter >= 0 && counter <= 200) {
         fill("blue");
-    }else if(counter > 200 && counter <= 400){
+    } else if (counter > 200 && counter <= 400) {
         fill("green");
-    }else if(counter > 400 && counter <= width){
+    } else if (counter > 400 && counter <= width) {
         fill("red");
-    }else{
+    } else {
         fill("yellow");
     }
 
