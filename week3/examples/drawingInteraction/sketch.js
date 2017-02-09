@@ -35,10 +35,12 @@ function setup() {
 function draw() {
 frameRate(60);
     background(backgroundColor);
-
+    //background(randNum, 100,100);
     mapX = map(mouseX,0,width,-10,10);
 
     //ellipse(random(width), random(height), 50,50);
+
+
 
     fill(255);
     //eye1
@@ -72,8 +74,9 @@ frameRate(60);
     //console.log(randNum);
 
     fill(randNum,0,0);
-    arc(width/2 + 100,275, 100,100, 0 , PI);
+    arc(mapX+width/2 + 100,275, 100,100, 0 , PI);
 
+    //mouse cursor
     ellipse(mouseX,mouseY,10,10);
 
 }
@@ -82,6 +85,8 @@ frameRate(60);
 function mousePressed(){
     //background('yellow');
     backgroundColor = 'pink';
+    backgroundColor = "rgb(123,54,65)";
+    //backgroundColor = "145,0,255";
     randNum = random(256); //0-255
 }
 
