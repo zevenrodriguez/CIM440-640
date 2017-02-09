@@ -1,7 +1,7 @@
 var changeBackground = false;
 
 function setup() {
-  
+
 }
 
 function draw() {

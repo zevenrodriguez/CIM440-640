@@ -13,17 +13,17 @@ function draw() {
     console.log("Above centerY");
     fill(255,0,0);
   }
-  
+
   if(mouseY > centerY){
     console.log("Below centerY");
     fill(0,255,0);
   }
-  
+
   if(mouseY == centerY){
     fill(0,0,255);
   }
   */
-  
+
   if(mouseX > centerX){
     console.log("right");
     fill(255,0,0);
@@ -35,5 +35,5 @@ function draw() {
   if(mouseX == centerX){
     fill(0,0,255);
   }
-  
+
 }
