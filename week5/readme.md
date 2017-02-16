@@ -24,5 +24,5 @@
 
 Practice (Choose one)
 
-* Create your own trivia game
+* Create your own poll using the [Key Value Pairs](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week5/keyvalue/sketch.js) example
 * Use an array or key value pair to create a piece of art or display data
