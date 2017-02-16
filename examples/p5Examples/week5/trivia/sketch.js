@@ -38,7 +38,7 @@ function draw() {
   background(255);
 
   ellipse(mouseX, mouseY, 10, 10);
-  
+
   fill("black");
   textAlign(CENTER);
   text(questions[qCounter], 0, 100, width, 100);
@@ -72,7 +72,7 @@ function draw() {
 
 function mousePressed() {
   console.log(choices[qCounter][currentArea]);
-  
+
   if(answers[qCounter] == choices[qCounter][currentArea]){
     console.log("Correct Answer");
   }else{
@@ -83,6 +83,6 @@ function mousePressed() {
   if (qCounter >= questions.length) {
     qCounter = 0;
   }
-  
+
 
 }

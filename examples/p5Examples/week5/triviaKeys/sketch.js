@@ -31,7 +31,7 @@ function draw() {
   fill("black");
   textAlign(CENTER);
   text(questions[qCounter], 0, 100, width, 100);
-  
+
    for (var choice = 0; choice < choices[qCounter].length; choice++) {
       //console.log(choices[0][choice]);
       fill("black");
@@ -39,13 +39,13 @@ function draw() {
       text(choices[qCounter][choice], choice * textArea, height/2, textArea, textArea);
       text(choice+1, choice * textArea, height/2 + 20, textArea, textArea);
 
-     
+
    }
 }
 
 function keyPressed() {
   console.log(keyCode);
-  
+
   //49 == 1, 50 == 2, 51 == 3, 52 == 4
   if(keyCode == 49){
     currentAnswer = 0;
@@ -56,7 +56,7 @@ function keyPressed() {
   }else if(keyCode == 52){
     currentAnswer = 3;
   }
-  
+
   if(answers[qCounter] == choices[qCounter][currentAnswer]){
     console.log("Correct Answer");
   }else{
