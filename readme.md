@@ -37,6 +37,7 @@ _Practice_
 
 ###Week 6: Feb 21st - Functions and User input
 
+
 ###Week 7: Feb 28th - Objects, Project Presentations
 
 ###Week 8: Mar 7th - Midterm Project Workday
