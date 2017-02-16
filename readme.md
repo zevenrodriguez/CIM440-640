@@ -27,30 +27,17 @@ _Practice_
 
 ###[Week 3: Jan 31st - Adding Interaction, Conditionals, Mouse Position](https://github.com/zevenrodriguez/CIM540-640/tree/master/week3)
 
-_Practice_ 
-* Use your Mouse to interact with screen elements
 
-###Week 4: Feb 7th - Animation, Loops, Arrays
-
-_Practice_
-* Use an Array to animate shape positions or display text on the screen
-
-###Week 5: Feb 14th - Functions
-
-_Practice_
-* Create 2 functions that change elements on your sketch
-
-###Week 6: Feb 21st - Objects
-
-_Practice_
-* Use Objects to generate multiple items and interactions on the screen
+###[Week 4: Feb 7th - Conditionals and  Arrays](https://github.com/zevenrodriguez/CIM540-640/tree/master/week4)
 
 
-###Week 7: Feb 28th - User Input, Working with the DOM
 
-_Practice_
-* Use a DOM Function to create an interaction
-* Code Plan and Midterm Report
+###[Week 5: Feb 14th - Arrays](https://github.com/zevenrodriguez/CIM540-640/tree/master/week5)
+
+
+###Week 6: Feb 21st - Functions and User input
+
+###Week 7: Feb 28th - Objects, Project Presentations
 
 ###Week 8: Mar 7th - Midterm Project Workday
 
@@ -60,18 +47,9 @@ _Practice_
 
 ###Week 11: Mar 28th - Working with Sound/Video
 
-_Practice_
-* Use sound or video in a sketch
-
 ###Week 12: Apr 4th - Working with Libraries
 
-_Practice_
-* Use a library you might want to use in your final project
-
 ###Week 13: Apr 11th - Working with Data
-
-_Practice_
-* Create a visualization
 
 ###Week 14: Apr 18th - Wrapping up
 
