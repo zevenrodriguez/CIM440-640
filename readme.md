@@ -11,6 +11,14 @@ Office Hours: [https://zeven.youcanbook.me/](https://zeven.youcanbook.me/)
 
 ##[Syllabus](https://github.com/zevenrodriguez/CIM540-640/blob/master/files/CIM540-4Q-S17-Intro%20to%20Creative%20Coding.pdf)
 
+####Tutoring
+
+Lennse Garcia
+
+Room 1054, Monday TBD
+
+[https://calendly.com/lyg9](https://calendly.com/lyg9)
+
 
 ###[Week 1: Jan 17th - Introduction to Creative Coding](https://github.com/zevenrodriguez/CIM540-640/tree/master/week1)
 * Introduction to Creative Coding
