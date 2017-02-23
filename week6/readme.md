@@ -1,4 +1,4 @@
-Past Projects
+##Past Projects
 
 [Alejandra Jimenez](https://ajimenez540.wordpress.com/2016/10/18/midterm-report/)
 
@@ -10,7 +10,11 @@ Past Projects
 
 [Stephanie Sutton](https://wirginiavoolf.wordpress.com/2016/10/29/midterm-project-geisha-in-subway/)
 
-[poll]()
+
+
+##Examples
+
+[poll](https://github.com/zevenrodriguez/CIM540-640/blob/master/week6/classExamples/poll/sketch.js)
 
 [Trivia with keys](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week5/triviaKeys/sketch.js)
 
