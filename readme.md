@@ -44,7 +44,7 @@ _Practice_
 ###[Week 5: Feb 14th - Arrays](https://github.com/zevenrodriguez/CIM540-640/tree/master/week5)
 
 
-###Week 6: Feb 21st - Functions and User input
+###[Week 6: Feb 21st - Functions and User input](https://github.com/zevenrodriguez/CIM540-640/tree/master/week6)
 
 
 ###Week 7: Feb 28th - Objects, Project Presentations
