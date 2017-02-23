@@ -10,19 +10,37 @@ Past Projects
 
 [Stephanie Sutton](https://wirginiavoolf.wordpress.com/2016/10/29/midterm-project-geisha-in-subway/)
 
-Trivia keys
-poll displaying
+[poll]()
 
-IMAGES
+[Trivia with keys](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week5/triviaKeys/sketch.js)
 
-Basic Image
+
+
+###IMAGES
+
+[Basic Image](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week6/basicImage/sketch.js)
+
 FUNCTIONS
 
-diceRoll
-diceRollParameters
-diceRollReturn
-PUSH POP TRANSLATE AND SCALE
+[diceRoll](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week6/diceRoll/sketch.js)
 
-pushPopStart
-pushPopFinish
-pushPopFunction
+[diceRollParameters](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week6/diceRollParameters/sketch.js)
+
+[diceRollReturn](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week6/diceRollReturn/sketch.js)
+
+###PUSH POP TRANSLATE AND SCALE
+
+[pushPopStart](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week6/pushPopStart/sketch.js)
+
+[pushPopFinish](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week6/pushPopFinish/sketch.js)
+
+[pushPopFunction](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week6/pushPopFunction/sketch.js)
+
+
+###Homework
+
+* Create a function to either randomize your own set of images or push and pop your own design
+
+* Create a 5 slide presentation outlining what your project is and how it works.
+
+
