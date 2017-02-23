@@ -41,6 +41,10 @@ FUNCTIONS
 [pushPopFunction](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week6/pushPopFunction/sketch.js)
 
 
+For images to work 
+
+https://github.com/processing/p5.js/wiki/Local-server
+
 ###Homework
 
 * Create a function to either randomize your own set of images or push and pop your own design
