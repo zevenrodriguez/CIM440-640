@@ -40,7 +40,6 @@ _Practice_
 ###[Week 4: Feb 7th - Conditionals and  Arrays](https://github.com/zevenrodriguez/CIM540-640/tree/master/week4)
 
 
-
 ###[Week 5: Feb 14th - Arrays](https://github.com/zevenrodriguez/CIM540-640/tree/master/week5)
 
 
