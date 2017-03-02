@@ -23,6 +23,11 @@
 
 ###[Dom Library](http://p5js.org/reference/#/libraries/p5.dom)
 
+###[Button Example](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week7/buttonExample/sketch.js)
+
+###[Slider Example](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week7/sliderExample/sketch.js)
+
+###[Button Toggle](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week7/buttonToggle/sketch.js)
 
 
 ##Homework
