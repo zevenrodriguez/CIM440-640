@@ -14,15 +14,15 @@ function setup() {
 
 function draw() {
   background(255);
-  
+
   console.log(flipFlop);
-  
+
   if(flipFlop == false){
-    currentFade = bubble0.fade("up");  
+    currentFade = bubble0.fade("up");
   }else{
     currentFade = bubble0.fade("down");
   }
-  
+
   if(bubble0.fadeDone == true){
     if(flipFlop == true){
         flipFlop = false;
@@ -32,7 +32,7 @@ function draw() {
   bubble0.fadeDone = false;
   }
   bubble0.display();
-  
+
 }
 
 function bubbles(tempX, tempY, tempDiameter) {
@@ -42,17 +42,17 @@ function bubbles(tempX, tempY, tempDiameter) {
   this.diameter = tempDiameter;
   this.counter = 0;
   this.fadeDone = false;
-  
-  
+
+
   this.display = function() {
     fill(100, this.counter);
     ellipse(this.x, this.y, this.diameter, this.diameter);
   }
-  
+
 
   this.fade = function(upDown) {
-    
-    
+
+
     if (upDown == "up") {
       this.counter++;
       if(this.counter == 255){

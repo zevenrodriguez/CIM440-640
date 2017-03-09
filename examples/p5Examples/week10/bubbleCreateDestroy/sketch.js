@@ -19,7 +19,7 @@ function draw() {
 
   if (millis() - prevMillis >= interval) {
     var randomToggle = int(random(2));
-    
+
     if (randomToggle == 0) {
       console.log("pushing");
       var newBubble = new bubbles(random(width), random(height), 100);
@@ -30,7 +30,7 @@ function draw() {
         multiBubbles.pop();
       }
     }
-    
+
     prevMillis = millis();
   }
 
@@ -60,6 +60,6 @@ function bubbles(tempX, tempY, tempDiameter) {
     ellipse(this.x, this.y, this.diameter, this.diameter);
   }
 
- 
+
 
 }

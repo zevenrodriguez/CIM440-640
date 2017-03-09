@@ -32,9 +32,9 @@ function draw() {
 
 function createBubbles() {
   var number = input.value();
-  
+
   multiBubbles = [];
-  
+
   for (var i = 0; i < number; i++) {
     var newBubble = new bubbles(random(width), random(height), 100);
     multiBubbles.push(newBubble);
