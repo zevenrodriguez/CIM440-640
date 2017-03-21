@@ -30,7 +30,7 @@
 ###[Button Toggle](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/p5Examples/week7/buttonToggle/sketch.js)
 
 
-##Homework
+## Homework
 
 * Create a midterm folder
 * Start working on your midterm
@@ -39,7 +39,7 @@
  * Provide a brief description of your project
  * Include your code plan
  
-###What is a Code Plan?
+### What is a Code Plan?
 
 Is documenting your code. The code plan is meant to be more of a step by step approach. The three areas that you should focus on:
 
@@ -47,35 +47,35 @@ Is documenting your code. The code plan is meant to be more of a step by step ap
 * Interface
 * Pseudocode
 
-#####Input and Output
+##### Input and Output
 
 Say what type of input you are going to use and what is it going to do. Then say how it is going to affect your output.
 
-#####Pseudocode
+##### Pseudocode
 
 Pseudocode is that writing your code in plain english. Documenting the program flow step by step.
 
-#####Interface
+##### Interface
 
 If your project has an interface, draw some thumbnails or design something in illustrator or photoshop.
 
-####Example - The Hipnotizer
+#### Example - The Hipnotizer
 
 For my project I am going to make a ball move left and right. The program is going to start by clicking a button on the screen.
 
-#####Input
+##### Input
 
 * Button
  * Click button to start
  * Click button to stop
 
-#####Output
+##### Output
 
 * Ellipse
  * Moves left
   * Moves right
   
-#####Psuedocode
+##### Psuedocode
 
 * Button
  * Click to start, click to stop

@@ -8,16 +8,21 @@ var fillColor;
 
 function setup() {
     createCanvas(400, 400);
-    fillColor = color(0,0,0);
+    fillColor = color(255,255,255);
 }
 
 function draw() {
+
+
     background(255);
     fill(fillColor);
     rect(0, 0, 399, 399);
     line(section1, 0, section1, height);
     line(section2, 0, section2, height);
     line(section3, 0, section3, height);
+
+
+
     if (mouseX > 0 && mouseX <= section1) {
         //console.log("In Section1")
         currentSection = 1;

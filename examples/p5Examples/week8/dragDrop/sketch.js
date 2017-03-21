@@ -51,6 +51,9 @@ function draw() {
         }
     }
 
+
+
+
     if (box2Selected == true) {
         box2X = mouseX;
         box2Y = mouseY;
