@@ -43,6 +43,8 @@ function draw() {
         //stop moving my bubble
     } else if (currentType == "reset") {
         //reset bubble to begining
+        bubble0.x=0;
+        currentType = "start";
     }
 
 
@@ -110,6 +112,8 @@ function bubble(tempX, tempY, tempDiameter) {
             return false;
         }
     }
+
+
 
 
 
