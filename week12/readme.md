@@ -15,4 +15,9 @@
 
 ## Homeworks
 
-Create a tutorial on a library that you would want to explore for your final project.  Create a sketch example using the library. Make it creative. Explain functions and logic used in your sketch. Be prepared to talk about the library.
+* Create a final folder
+ * Create a readme.md, All documentation will should be placed in this file
+* Create a tutorial on a library that you would want to explore for your final project.  Create a sketch example using the library. Make it creative. Explain functions and logic used in your sketch. Be prepared to talk about the library.
+ * Create a tutorial folder
+ * Create a readme.md write your tutorial and notes there
+
