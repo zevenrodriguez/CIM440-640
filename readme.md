@@ -71,11 +71,13 @@ _Class Assignment_
 
 ### Week 14: Apr 20th - Workday
 
+_Class Assignment_
+* Progress Report #2
+
 
 ### Week 15: Apr 27th - Final Project Critique
 
-_Class Assignment_
-* Progress Report #2
+
 
 
 ### Resources
