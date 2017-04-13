@@ -9,7 +9,7 @@ Office: Francis L. Wolfson Building 2022
 Office Hours: [https://zeven.youcanbook.me/](https://zeven.youcanbook.me/)
 
 
-# [Interactive Media End of the Year Show](http://www.interactive.miami.edu/canesfilmfest)
+# [Interactive Media End of the Year Show](https://interactive.miami.edu/canesfilmfest/)
 
 
 ## [Syllabus](https://github.com/zevenrodriguez/CIM540-640/blob/master/files/CIM540-4Q-S17-Intro%20to%20Creative%20Coding.pdf)
