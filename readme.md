@@ -18,49 +18,62 @@
  
 ## Schedule
 
-Week 1
+### [Week 1]()
+
 Introduction to Creative Coding
 Getting started with Github
 
-Week 2 
+### [Week 2]()
+
 Intro to Javascript
 
-Week 3 
+### [Week 3]()
+
 Conditionals
-Week 4 
+
+### [Week 4]()
+
 Arrays and Loops
 
-Week 5
+### [Week 5]()
+
 Intro to p5.js
 
-Week 6 
+### [Week 6]()
+
 Working with Images and Creating an interface 
 
-Week 7 
+### [Week 7]()
+
 Programming Interaction and User Input
 
-Week 8 
+### [Week 8]()
+
 Animation
 
-Week 9
+### [Week 9]()
+
 Project Review – Fall Recess
 
-Week 10
+### [Week 10]()
+
 Objects
 
-Week 11 
+### [Week 11]()
+
 Working with audio and video
 
-Week 12 
+### [Week 12]()
 Libraries
 
-Week 13
+### [Week 13]()
+
 Working with Data, Saving State
 
-Week 14 - Thanksgiving
+### Week 14 - Thanksgiving
 
-Week 15 - Final Workday
+### Week 15 - Final Workday
 
-Week 16 - Final Project Review
+### Week 16 - Final Project Review
 
-Week 17 - Final
+### Week 17 - Final
