@@ -31,9 +31,13 @@ p5js is a javascript library based off Java/Processing. It was developed by Laur
 
 ### INSPIRATION
 
-[P5.js Gallery](https://p5js.org/gallery/h)
+[Processing Gallery](https://processing.org/exhibition/)
 
-[Zeven Rodriguez](http://www.howlinwolves.com)
+[Objectifier](https://bjoernkarmann.dk/objectifier)
+
+[Fluid Leaves](http://reinoudvanlaar.nl/project/leavespattern/)
+
+[Brooklyn Research](http://brooklynresearch.com/projects/)
 
 [Rune Madsen](https://runemadsen.com/)
 
@@ -48,6 +52,9 @@ http://research.google.com/bigpicture/music/
 http://gagemotion.com/
 
 http://googlecreativelab.github.io/anypixel/
+
+[Zeven Rodriguez](http://www.howlinwolves.com)
+
 
 ### WHAT IS GIT?
 
