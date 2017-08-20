@@ -18,7 +18,7 @@
  
 ## Schedule
 
-### [Week 1]()
+### [Week 1](https://github.com/zevenrodriguez/CIM540-640/tree/master/week1)
 
 Introduction to Creative Coding
 Getting started with Github
