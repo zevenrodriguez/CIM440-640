@@ -55,6 +55,37 @@ http://googlecreativelab.github.io/anypixel/
 
 [Zeven Rodriguez](http://www.howlinwolves.com)
 
+### Brackets
+
+Brackets is a text editor. [http://brackets.io/](http://brackets.io/)
+
+### File Structure
+
+* CIM540-640 Folder
+ * week1
+  * Assignments, notes, etc
+  * readme.md
+ * week2
+  * Assignments, notes, etc
+  * readme.md
+
+  All assignments should have a readme.md with a general description of what you did for the assignment. All assignments need to have a codeplan.
+
+### Codeplan
+
+A codeplan is documentation of how your program works. It should breakdown how the user interacts with your assignment step by step.
+
+#### Example
+
+The goal for this program is for the user to fill in a form and it generates a series of floating bubbles on the screen.
+
+Step 1: User fills form
+Step 2: User clicks submit
+Step 3: Grab information from form
+Step 4: Generate bubbles
+Step 5: Move bubbles
+
+Additional goals: Create a reset button
 
 ### WHAT IS GIT?
 
@@ -117,3 +148,8 @@ If configured correctly, will upload your changes to github.
 
 * Create a repository
 * Add readme.md file
+* Add a heading
+* Brief Bio
+* Create a folder called week1
+* Create an html document with proper syntax
+* Include a title, bio, and an image
