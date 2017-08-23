@@ -105,7 +105,9 @@ Github is a service that hosts git repositories remotely. It is like a Dropbox o
 
 ### CREATING A REPO
 
-[Creating a repository with Github Desktop from Zeven Rodriguez on Vimeo.](https://vimeo.com/230784919)
+#### [Creating a repository with Github Desktop](https://vimeo.com/230808881)
+
+[Creating a repository with Github Desktop(OLD UI)](https://vimeo.com/230784919)
 
 Also see https://help.github.com/articles/create-a-repo/
 
