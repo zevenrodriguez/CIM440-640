@@ -151,5 +151,6 @@ If configured correctly, will upload your changes to github.
 * Add a heading
 * Brief Bio
 * Create a folder called week1
+* [Watch Intro to HTML Video](https://vimeo.com/230795009)
 * Create an html document with proper syntax
 * Include a title, bio, and an image
