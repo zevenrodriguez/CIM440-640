@@ -8,7 +8,7 @@ HTML is a structured markup language. Tags have a parent-child relationship whic
 
 https://citsf221.community.uaf.edu/files/2009/08/taganatomy.png
 
-#### <!DOCTYPE HTML>
+``` <!DOCTYPE HTML>
 
 The <!DOCTYPE> declaration must be the very first thing in your HTML document, before the <html> tag.
 
@@ -22,7 +22,8 @@ HTML4 - has multiple types.
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
-#### <html></html>
+
+<html></html>
 
 The <html> tag tells the browser that this is an HTML document.
 
@@ -30,10 +31,10 @@ These are the opening tags for your webpage
 
 All markup should be placed inside of these tags
 
-#### <head><head>
 
-The <head> element can include tags for css, javascript, keywords, here are some:
-<title>(this element is required in an HTML document), <style>, <base>, <link>, <meta>, <script>, <noscript>
+<head><head>
+
+The <head> element can include tags for css, javascript, keywords, here are some: <title>,<style>, <base>, <link>, <meta>, <script>, <noscript> 
 
 The elements placed in the head tag are meant for browsers to preprocess before loading the rest of the document
 
@@ -42,6 +43,8 @@ The elements placed in the head tag are meant for browsers to preprocess before 
 The <body> tag defines the document's body.
 
 The <body> element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.
+
+```
 
 #### Basic HTML Structure
 
