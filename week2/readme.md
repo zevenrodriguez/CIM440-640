@@ -38,6 +38,7 @@ The <head> element can include tags for css, javascript, keywords, here are some
 
 The elements placed in the head tag are meant for browsers to preprocess before loading the rest of the document
 
+
 <body></body>
 
 The <body> tag defines the document's body.
@@ -66,6 +67,10 @@ The <body> element contains all the contents of an HTML document, such as text, 
 
 
 ```
+
+#### Basic Tag Example
+
+For more examples and tutorials visit: https://www.w3schools.com/
 
 ## Videos
 
