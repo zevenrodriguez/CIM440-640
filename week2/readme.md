@@ -144,3 +144,6 @@ Declaring a variable means saying:
 When declaring a variable location of where the variable is declared is important. If a variable is declared with in a function, that variables scope is only available in that function. Meaning you can only use that variable in that function.
 
 
+# [Simple Javascript Setup](https://github.com/zevenrodriguez/CIM540-640/blob/master/week2/examples/simpleSetup.html)
+
+
