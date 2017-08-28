@@ -49,6 +49,8 @@ The <body> element contains all the contents of an HTML document, such as text, 
 
 #### Basic HTML Structure
 
+[Basic HTML Structure](https://github.com/zevenrodriguez/CIM540-640/blob/master/week2/examples/gettingStartedHTML.html)
+
 ```
 <!DOCTYPE html>
 
@@ -60,6 +62,8 @@ The <body> element contains all the contents of an HTML document, such as text, 
 
     <body>
         <h1>Hello World!!!!</h1>
+        <p>This is a paragraph.</p>
+
     </body>
 
 
@@ -95,6 +99,8 @@ https://www.lynda.com/Web-Development-tutorials/HTML-CSS/170427/196178-4.html?or
 A variable is the smallest unit in a programming language. Variables are used as human readable references to numbers, characters, words, sentences, true, and false. 
 
 ``` var num = 100; ```
+
+### [Variable Example](https://github.com/zevenrodriguez/CIM540-640/blob/master/week2/examples/variables.html)
 
 #### What is a function?
 
