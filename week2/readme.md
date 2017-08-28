@@ -102,13 +102,6 @@ A variable is the smallest unit in a programming language. Variables are used as
 
 ### [Variable Example](https://github.com/zevenrodriguez/CIM540-640/blob/master/week2/examples/variables.html)
 
-#### What is a function?
-
-A function is a way to group a set of instructions so you can use it throughout your program. Functions can take parameters which are options to make your code more modular.
-
-#### What is a library?
-
-A library is a collection of variables, functions, and objects that work together. Libraries can be composed of one or more files.
 
 #### Printing/Debugging
 
@@ -145,5 +138,19 @@ When declaring a variable location of where the variable is declared is importan
 
 
 # [Simple Javascript Setup](https://github.com/zevenrodriguez/CIM540-640/blob/master/week2/examples/simpleSetup.html)
+
+
+#### What is a function?
+
+A function is a way to group a set of instructions so you can use it throughout your program. Functions can take parameters which are options to make your code more modular.
+
+##### [Function Example](https://github.com/zevenrodriguez/CIM540-640/blob/master/week2/examples/functions.html)
+
+
+#### What is a library?
+
+A library is a collection of variables, functions, and objects that work together. Libraries can be composed of one or more files.
+
+
 
 
