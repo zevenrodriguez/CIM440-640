@@ -142,8 +142,10 @@ This will save your changes
 
 If configured correctly, will upload your changes to github.
 
+## Markdown
 
-# [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 
 
 ## Homework
