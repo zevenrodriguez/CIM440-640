@@ -74,6 +74,8 @@ The <body> element contains all the contents of an HTML document, such as text, 
 
 #### Basic Tag Example
 
+[Basic Tag Example](https://github.com/zevenrodriguez/CIM540-640/blob/master/week2/examples/basicTags.html)
+
 For more examples and tutorials visit: https://www.w3schools.com/
 
 ## Videos
