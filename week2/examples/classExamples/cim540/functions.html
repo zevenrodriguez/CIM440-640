@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My App</title>
+
+    <style>
+        /* Enter CSS below */
+
+    </style>
+
+ </head>
+
+
+<body>
+
+    <h1>My App</h1>
+
+    <p><i>Description goes here</i></p>
+
+    <button type="button" onclick="sayHello('zeven')">Check console</button>
+
+    <script>
+       /* Comment: Enter code below */
+
+        var greeting = "goodbye ";
+
+        //Declare function
+        function printMessage(){
+            console.log("Printing a message");
+        }
+
+        function sayHello(name){
+            var message = "Hello " + name + "!";
+            console.log(message);
+        }
+
+        function sayGreeting(name){
+            var message = greeting + name + "!";
+            console.log(message);
+        }
+
+          function addNumbers(add1,add2){
+            var addition = add1 + add2;
+            console.log(addition);
+        }
+
+        function returnNumbers(add1,add2){
+            var addition = add1 - add2;
+
+            return addition;
+        }
+
+         //Using function
+        printMessage();
+        sayHello("zeven");
+        sayHello("Fawlene");
+        sayGreeting("John");
+
+        //The message variable is outside of the main programs scope
+        //console.log(message);
+
+        addNumbers(1,1);
+        addNumbers(452,7062);
+
+
+       console.log(returnNumbers(1,1));
+
+        var firstAdd = returnNumbers(1,1);
+        var secondAdd = returnNumbers(12,45);
+        var thirdAdd = returnNumbers(firstAdd,secondAdd);
+        console.log(thirdAdd);
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
+
+
+
+
