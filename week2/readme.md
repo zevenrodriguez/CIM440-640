@@ -161,4 +161,12 @@ A library is a collection of variables, functions, and objects that work togethe
 
 #### [Form Example](https://github.com/zevenrodriguez/CIM540-640/blob/master/week3/examples/forms.html)
 
+Create use a function to calculate a formula:
+
+1.	Puppy age Calculator
+2.	Lifetime Supply Calculator
+3.	Calculate geometry
+4.	Temp Converter
+
+
 
