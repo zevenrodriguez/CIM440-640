@@ -23,7 +23,7 @@
 Introduction to Creative Coding
 Getting started with Github
 
-### [Week 2]()
+### [Week 2](https://github.com/zevenrodriguez/CIM540-640/tree/master/week2)
 
 Intro to Javascript
 
