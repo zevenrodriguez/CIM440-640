@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My App</title>
+
+    <style>
+        /* Enter CSS below */
+
+    </style>
+
+ </head>
+
+
+<body>
+    <!-- HTML Comment -->
+    <h1>My App</h1>
+
+    <p><i>Description goes here</i></p>
+
+    <button type="button" onclick="sayHello('zeven')">Click here to say hello</button>
+
+    <script>
+       /* Comment: Enter code below */
+        //Single line comment
+
+        var greeting = "goodbye";
+
+        function printMessage(){
+            console.log("print a message");
+        }
+
+        function sayHello(name){
+            var message = "Hello " + name + "!";
+            console.log(message);
+        }
+
+        function sayGreeting(name){
+            var message = greeting + name + "!";
+            console.log(message);
+        }
+
+        function addNumber(add1,add2){
+            var addition = add1 + add2;
+            console.log(addition);
+        }
+
+        function addReturn(add1,add2){
+            var addition = add1 + add2;
+            console.log(addition)
+            return addition;
+        }
+
+        // place functions above
+
+        printMessage();
+
+        sayHello("Kenyetta");
+        sayHello("Lena");
+
+        sayGreeting("Kim");
+        sayGreeting("Zeven");
+
+        //Message does not exist in this scope
+        //console.log(message);
+
+        addNumber(1,1);
+        addNumber(123423,23425);
+
+        console.log(addReturn(12,15));
+        var firstAdd = addReturn(14,4);
+        var secondAdd = addReturn(1,1);
+        var thirdAdd = addReturn(firstAdd, secondAdd);
+        console.log(thirdAdd);
+
+    </script>
+
+</body>
+
+</html>
