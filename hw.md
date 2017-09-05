@@ -16,7 +16,7 @@ Must haves:
 * Function - 5 Points
 * Output - 2 Points
 * Design - 1 Point
- * Include images and html tags to add styling
+  * Include images and html tags to add styling
 * Code Plan - 2 points
  
 # What is a Code Plan?
