@@ -1,3 +1,6 @@
+[Functions video](https://vimeo.com/232525036)
+
+[Functions video example](https://github.com/zevenrodriguez/CIM540-640/blob/master/week2/examples/functionVideo.html)
 
 ## id vs class
 
