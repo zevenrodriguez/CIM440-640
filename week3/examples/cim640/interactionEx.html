@@ -9,70 +9,53 @@
 
     </style>
 
-</head>
+ </head>
 
 
 <body>
 
-    <h1>Tootsie Pop Calculator</h1>
+    <h1>My App</h1>
 
-    <p><i>Enter your how many licks you have given your Tootsie pop in order to figure how far you have left.</i></p>
-
-    <img src="http://www.tootsie.com/core/files/tootsie/uploads/images/TP_Favorite.png" width="400">
-
-    <br>
-    <br>
+    <p><i>Description goes here</i></p>
 
     <form>
-        <label for="licks">Enter number of licks: </label>
+        <label for="licks">Enter number of licks:</label>
         <input type="text" name="licks" id="licks">
-
-        <br>
-        <br>
-
-<!--        <button type="button" id="lButton" onclick="centerOfPop()">Enter Licks</button>-->
-
+        <br><br>
         <button type="button" id="lButton">Enter Licks</button>
-
-        <br>
-        <br>
-
 
     </form>
 
-            <div id="output"></div>
-
+    <div id="output"></div>
 
     <script>
-        /* Comment: Enter code below */
+       /* Comment: Enter code below */
 
-        var averageLicks = 252;
-
-        function centerOfPop() {
+        function centerOfPop(){
+            //console.log("This is working");
             var licksAmount = document.getElementById("licks").value;
             console.log("Licks amount: " + licksAmount);
 
-            //parseInt() use parseInt() to convert a string to a number
-             var lickRatio = parseInt(licksAmount)/parseInt(averageLicks) * 100;
+            var lickRatio = parseInt(licksAmount)/parseInt(averageLicks) * 100;
+
+            //console.log(lickRatio);
 
             lickRatio = Math.round(lickRatio);
+
+            //console.log(lickRatio);
 
             var message = "<h1>You have gone: " + lickRatio + "% of the way!</h1>";
             console.log(message);
 
             var outputText = document.getElementById("output");
-
-            console.log(outputText);
-
             outputText.innerHTML = message;
         }
 
-
+        var averageLicks = 252;
 
         var getButton = document.getElementById("lButton");
-
+        //console.log(getButton);
         getButton.addEventListener("click", centerOfPop);
-
 
 
     </script>
