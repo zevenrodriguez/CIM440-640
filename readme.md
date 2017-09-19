@@ -27,19 +27,23 @@ Getting started with Github
 
 Intro to Javascript
 
-### [Week 3]()
+### [Week 3](https://github.com/zevenrodriguez/CIM540-640/tree/master/week3)
+
+Functions
+
+### [Week 4](https://github.com/zevenrodriguez/CIM540-640/tree/master/week4)
+
+
+
+### [Week 5](https://github.com/zevenrodriguez/CIM540-640/tree/master/week5)
+
+
+### [Week 6](https://github.com/zevenrodriguez/CIM540-640/tree/master/week6)
 
 Conditionals
-
-### [Week 4]()
-
 Arrays and Loops
 
-### [Week 5]()
-
 Intro to p5.js
-
-### [Week 6]()
 
 Working with Images and Creating an interface 
 

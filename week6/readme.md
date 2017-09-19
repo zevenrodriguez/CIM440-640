@@ -1,0 +1,12 @@
+# Conditionals 
+
+
+
+
+
+# Arrays
+
+
+
+
+# Loops
