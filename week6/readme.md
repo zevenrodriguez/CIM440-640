@@ -23,3 +23,8 @@
 
 
 # Loops
+
+
+# Homework
+
+* Watch [Working with Random numbers](https://vimeo.com/235370502)
