@@ -34,7 +34,6 @@ Functions
 ### [Week 4](https://github.com/zevenrodriguez/CIM540-640/tree/master/week4)
 
 
-
 ### [Week 5](https://github.com/zevenrodriguez/CIM540-640/tree/master/week5)
 
 
