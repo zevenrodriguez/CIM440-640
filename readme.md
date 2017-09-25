@@ -51,7 +51,6 @@ Intro to p5.js
 
 Working with Images and Creating an interface 
 
-
 ### [Week 8]()
 
 Programming Interaction and User Input
