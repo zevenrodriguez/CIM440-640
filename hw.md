@@ -1,6 +1,6 @@
 # Homework
 
-## Practice #1
+## Practice #1 - DUE Oct 2nd & Oct 3rd
 
 Calculator - Create a interactive calculator. Come up with a fun and/or interesting thing to calculate.
 
