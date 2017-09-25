@@ -41,7 +41,9 @@ Functions
 ### [Week 6](https://github.com/zevenrodriguez/CIM540-640/tree/master/week6)
 
 Conditionals
+
 Arrays and Loops
+
 
 ### [Week 7]()
 
@@ -51,9 +53,8 @@ Working with Images and Creating an interface
 
 
 ### [Week 8]()
+
 Programming Interaction and User Input
-
-
 
 ### [Week 9]()
 
