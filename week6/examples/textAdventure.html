@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Text Adventure</title>
+
+    <style>
+        /* Enter CSS below */
+
+    </style>
+
+ </head>
+
+
+<body>
+
+    <h1>Text Adventure</h1>
+
+    <p><i>You are dropped in a forest. You must survive!</i></p>
+
+    <form>
+     <label>Gender:</label>
+        <br>
+        <input type="radio" name="dir" value="left" id="left">
+        <label for="left">Left</label>
+        <br>
+        <input type="radio" name="dir" value="straight" id="straight">
+        <label for="straight">straight</label>
+
+        <br>
+        <input type="radio" name="dir" value="right" id="right">
+        <label for="right">right</label>
+
+        <button type="button" id="direction">Where to go</button>
+
+    </form>
+
+    <script>
+       /* Comment: Enter code below */
+
+        function move(){
+            //grab all the radio buttons with the name dir, then loop through to check which was selected
+            var radios = document.getElementsByName("dir");
+
+            if(radios[i].checked == true){
+
+            }
+
+
+        }
+
+        var getDir = document.getElementById("direction");
+        getDir.addEventListener("click", move);
+
+    </script>
+
+</body>
+
+</html>

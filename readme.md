@@ -41,22 +41,24 @@ Functions
 
 Conditionals
 
-Arrays and Loops
+Arrays
 
 
 ### [Week 7]()
 
-Intro to p5.js
-
-Working with Images and Creating an interface 
+Loops
 
 ### [Week 8]()
+
+Intro to p5.js
 
 Programming Interaction and User Input
 
 ### [Week 9]()
 
 Animation
+
+Creating an interface
 
 ### [Week 10]()
 
@@ -66,13 +68,17 @@ Objects
 
 Working with audio and video
 
+Libraries
+
 ### [Week 12]()
 
-Libraries
+Working with Data, Saving State
+
+Idea Workshop
 
 ### [Week 13]()
 
-Working with Data, Saving State
+Idea Workshop
 
 ### Week 14 - Thanksgiving
 
