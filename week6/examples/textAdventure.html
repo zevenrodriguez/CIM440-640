@@ -9,17 +9,17 @@
 
     </style>
 
- </head>
+</head>
 
 
 <body>
 
     <h1>Text Adventure</h1>
 
-    <p><i>You are dropped in a forest. You must survive!</i></p>
+    <p id="message"><i>You are dropped in a forest. You must survive!</i></p>
 
-    <form>
-     <label>Gender:</label>
+    <form id="directionForm">
+        <label>What direction do you want to go:</label>
         <br>
         <input type="radio" name="dir" value="left" id="left">
         <label for="left">Left</label>
@@ -30,27 +30,52 @@
         <br>
         <input type="radio" name="dir" value="right" id="right">
         <label for="right">right</label>
-
+        <br><br>
         <button type="button" id="direction">Where to go</button>
 
     </form>
 
     <script>
-       /* Comment: Enter code below */
+        /* Comment: Enter code below */
 
-        function move(){
+        function move() {
             //grab all the radio buttons with the name dir, then loop through to check which was selected
             var radios = document.getElementsByName("dir");
 
-            if(radios[i].checked == true){
-
+            var currentPos = "";
+            if (radios[0].checked == true) {
+                console.log("left");
+                currentPos = radios[0].value;
+            } else if (radios[1].checked == true) {
+                console.log("straight");
+                currentPos = radios[1].value;
+            } else if (radios[2].checked == true) {
+                console.log("right");
+                currentPos = radios[2].value;
             }
 
+            var chooseConsequence = Math.floor(Math.random() * consequence.length);
+            var chooseLocation = Math.floor(Math.random() * loc.length);
+
+
+            if (consequence[chooseConsequence] == "dead") {
+                getMessage.innerHTML = "You are " + consequence[chooseConsequence] + " in a " + loc[chooseLocation];
+                getForm.style.display = "none";
+
+            } else if (consequence[chooseConsequence] == "survived") {
+                getMessage.innerHTML = "You " + consequence[chooseConsequence] + ". You are in a " + loc[chooseLocation];
+            }
 
         }
 
+        var consequence = ["dead", "survived"];
+        var loc = ["forest", "desert", "beach"];
+
         var getDir = document.getElementById("direction");
         getDir.addEventListener("click", move);
+
+        var getMessage = document.getElementById("message");
+        var getForm = document.getElementById("directionForm");
 
     </script>
 
