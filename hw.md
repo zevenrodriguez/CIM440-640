@@ -34,7 +34,7 @@ This program is a calculator where the user enters a current count of the licks 
  
  First, I need the user to tell me the amount of licks. I'll use a form text input for this. The user would have to click on a button to submit their answer. I'll need a button. When the user clicks the button, I'll activate my calculation function. In my function, I need to get the value of the form input. I'll grab the number divide it by 252 the average licks to eat a tootsie pop and multiply by 100. This will give me a percentage. Then I'll return a message telling them how far they have gone.
 
-# Practice 2
+# Practice 2 Due Oct 4th and Oct 5th
 
 Modify the quiz example or the text adventure.
 
