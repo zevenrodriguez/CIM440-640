@@ -33,8 +33,6 @@
             var guess = document.getElementById("guessInput").value;
             console.log(guess);
 
-            var answer = 6;
-
             //            if (guess == answer) {
             //                //do something here
             //                console.log("You guessed correct!");
@@ -47,10 +45,12 @@
 
 
             if (guess == answer) {
-                output.innerHTML = "You guessed correct!";
-            } else if (guess < answer) {
+                output.innerHTML = "You guessed correct! A new number has been generated! Keep playing!!!!!!";
+                answer = Math.floor(Math.random() * 11);
+                console.log(answer);
+            } else if (guess < answer && guess >= 0) {
                 output.innerHTML = "You are too low";
-            } else if (guess > answer) {
+            } else if (guess > answer && guess <= 10) {
                 output.innerHTML = "You guessed too high!";
             }else{
                 output.innerHTML = "Try again";
@@ -62,6 +62,10 @@
         guessButton.addEventListener("click", checkAnswer);
 
         var output = document.getElementById("outputText");
+
+        var answer = Math.floor(Math.random() * 11);
+
+        console.log(answer);
     </script>
 
 </body>
