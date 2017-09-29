@@ -37,53 +37,52 @@ Functions
 ### [Week 5](https://github.com/zevenrodriguez/CIM540-640/tree/master/week5)
 
 
-### [Week 6](https://github.com/zevenrodriguez/CIM540-640/tree/master/week6)
+### [Week 6 - Week of Sept 25](https://github.com/zevenrodriguez/CIM540-640/tree/master/week6)
 
 Conditionals
 
 Arrays
 
-
-### [Week 7]()
-
-Loops
-
-### [Week 8]()
+### [Week 7 - Week of Oct 2]()
 
 Intro to p5.js
 
 Programming Interaction and User Input
 
-### [Week 9]()
+### [Week 8  - Week of Oct 9]()
 
 Animation
 
+### [Week 9 - Week of Oct 16]()
+
 Creating an interface
 
-### [Week 10]()
+### [Week 10  - Week of Oct 23]()
 
 Objects
 
-### [Week 11]()
+### [Week 11 - Week of Oct 30]()
 
 Working with audio and video
 
 Libraries
 
-### [Week 12]()
+### [Week 12 - Week of Nov 6]()
 
 Working with Data, Saving State
 
 Idea Workshop
 
-### [Week 13]()
+### [Week 13 - Week of Nov 13]()
 
 Idea Workshop
 
-### Week 14 - Thanksgiving
+### Week 14 - Week of Nov 20 Thanksgiving
 
-### Week 15 - Final Workday
+### Week 15 - Week of Nov 27 Final Workday
 
-### Week 16 - Final Project Review
+### Week 16 - Week of Dec 4 Final Project Review
 
-### Week 17 - Final
+### Week 17 - Week of Dec 11 
+
+### Week 18 - Week of Dec 18
