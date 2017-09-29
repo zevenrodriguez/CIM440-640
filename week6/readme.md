@@ -38,6 +38,7 @@ console.log(letters[0]); // Will print out "a"
 # Homework
 
 * Watch [Working with Random numbers](https://vimeo.com/235370502)
+* Watch [CSS and Javascript](https://vimeo.com/236154330)
 * [Read this article](https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/)
 * Modify the quiz or text adventure example, Due Oct 4th and 5th
  * If you choose the quiz, modify the sketch and add 2 more questions and answers.
