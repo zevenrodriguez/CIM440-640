@@ -44,4 +44,9 @@ If you choose the text adventure, Add 2 directions and 2 consequences.
 
 2 Points for each modification.
 
+# Practice 3 (5 POINTS) DUE OCT 9-10
+
+* Create a character or piece of art using shapes.
+* Use 5 variables to represent position, color
+
 

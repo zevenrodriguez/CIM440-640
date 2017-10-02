@@ -245,7 +245,7 @@ function draw() {
 }
 ```
 
-ASSIGNMENT - CLASS ASSIGNMENT (5 POINTS)
+# Practice (5 POINTS) DUE OCT 9-10
 
 * Create a character or piece of art using shapes. 
 * Use 5 variables to represent position, color
