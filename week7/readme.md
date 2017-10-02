@@ -245,6 +245,18 @@ function draw() {
 }
 ```
 
+## Examples
+
+https://codepen.io/p5js/
+
+https://codepen.io/joshuajenkins/pen/mymjyr?page=4&
+
+https://codepen.io/joshuajenkins/pen/bNWKJR?page=4&
+
+https://codepen.io/carolineartz/pen/NPZJVz?page=5
+
+
+
 # Practice (5 POINTS) DUE OCT 9-10
 
 * Create a character or piece of art using shapes. 
