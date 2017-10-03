@@ -43,7 +43,7 @@ Conditionals
 
 Arrays
 
-### [Week 7 - Week of Oct 2]()
+### [Week 7 - Week of Oct 2](https://github.com/zevenrodriguez/CIM540-640/tree/master/week7)
 
 Intro to p5.js
 
