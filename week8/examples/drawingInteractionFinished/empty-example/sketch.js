@@ -3,6 +3,7 @@ var centerY = 0;
 var changeBColor;
 var hRedColor, hGreenColor, hBlueColor;
 
+var cloudButton;
 var cloudImage;
 var cloudsOn = false;
 
@@ -15,6 +16,9 @@ function setup() {
     changeBColor = color(0, 127, 0);
 
 
+    cloudButton = createButton("Show Clouds");
+    cloudButton.position(300,420);
+    cloudButton.mousePressed(changeBG);
 
     var redText = createP('Red');
     hRedColor = createSlider(0, 255, 0);
@@ -65,5 +69,9 @@ function draw() {
 
 function mousePressed() {
     changeBColor = color(200, 75, 0);
-    cloudsOn = true;
+}
+
+function changeBG(){
+        cloudsOn = true;
+
 }
