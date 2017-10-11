@@ -49,4 +49,11 @@ If you choose the text adventure, Add 2 directions and 2 consequences.
 * Create a character or piece of art using shapes.
 * Use 5 variables to represent position, color
 
+# Practice
+
+Using your character add 2 interactions. They can include:
+
+* Changing color using mousePressed and mouseReleased
+* Mapping a shape or color
+
 
