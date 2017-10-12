@@ -51,11 +51,11 @@ Programming Interaction and User Input
 
 ### [Week 8  - Week of Oct 9]()
 
-Animation
+Creating an interface
 
 ### [Week 9 - Week of Oct 16]()
 
-Creating an interface
+Animation
 
 ### [Week 10  - Week of Oct 23]()
 
