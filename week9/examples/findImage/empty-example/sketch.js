@@ -27,12 +27,6 @@ function draw() {
     text("Find the soccer ball?", 50, 250);
 
 
-
-
-
-
-
-
     if (mouseX > targetPosX[0] - 100 && mouseX < targetPosX[0] + 100 && mouseY > targetPosY - 100 && mouseY < targetPosY + 100) {
         image(pics[0], targetPosX[0], targetPosY);
 

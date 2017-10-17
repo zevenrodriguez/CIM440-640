@@ -10,14 +10,14 @@ function setup() {
 function draw() {
 
     //background(255);
-    frameRate(60);
+    frameRate(15);
     rectMode(CENTER);
 
     push();
     translate(width / 2, height / 2);
     rotate(counter++);
-    scale(2.0);
-    stroke(random(255), random(255), random(255));
+    scale(random(5.0));
+    stroke(random(256), random(256), random(256));
     rect(0, 0, 50, 50);
 
 
