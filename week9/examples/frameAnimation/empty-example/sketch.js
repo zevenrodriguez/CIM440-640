@@ -3,7 +3,7 @@ var frameArray = [];
 var currentFrame = 0;
 
 
-var interval = 10000;
+var interval = 2000;
 var pMillis = 0;
 var appear = false;
 
