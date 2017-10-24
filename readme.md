@@ -49,17 +49,17 @@ Intro to p5.js
 
 Programming Interaction and User Input
 
-### [Week 8  - Week of Oct 9]()
+### [Week 8  - Week of Oct 9](https://github.com/zevenrodriguez/CIM540-640/tree/master/week8)
 
 Creating an interface
 
-### [Week 9 - Week of Oct 16]()
+### [Week 9 - Week of Oct 16](https://github.com/zevenrodriguez/CIM540-640/tree/master/week9)
 
 Animation
 
-### [Week 10  - Week of Oct 23]()
+### [Week 10  - Week of Oct 23](https://github.com/zevenrodriguez/CIM540-640/tree/master/week10)
 
-Objects
+Finish Animation, Objects
 
 ### [Week 11 - Week of Oct 30]()
 
