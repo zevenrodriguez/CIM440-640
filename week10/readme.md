@@ -22,6 +22,8 @@ function draw() {
 
 ```
 
+https://github.com/processing/p5.js/wiki/Local-server
+
 
 # Midterm
 
