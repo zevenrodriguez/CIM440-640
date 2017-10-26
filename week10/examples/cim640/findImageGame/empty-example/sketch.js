@@ -8,6 +8,8 @@ var targetPosY = 100;
 
 //var overlayArray = [false, false, false];
 
+var currentPosition = -1;
+
 function setup() {
     createCanvas(600, 400);
     pics[0] = loadImage("assets/football.png");
@@ -29,6 +31,7 @@ function draw() {
     for (var i = 0; i < targetPosX.length; i++) {
         if (mouseX > targetPosX[i] - 100 && mouseX < targetPosX[i] + 100 && mouseY > targetPosY - 100 && mouseY < targetPosY + 100) {
             image(pics[i], targetPosX[i], targetPosY);
+            currentPosition = i;
 
         } else {
             rect(targetPosX[i], 100, 200, 200);
