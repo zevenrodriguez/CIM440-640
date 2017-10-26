@@ -10,6 +10,8 @@ var targetPosY = 100;
 
 var currentPosition = -1;
 
+var answer = 2;
+
 function setup() {
     createCanvas(600, 400);
     pics[0] = loadImage("assets/football.png");
@@ -39,8 +41,17 @@ function draw() {
         }
 
     }
-    
+
     console.log("currentposition: " + currentPosition);
+
+    if (currentPosition == answer) {
+        console.log("Correct");
+    } else if (currentPosition < answer && currentPosition >= 0) {
+        console.log("Incorrect");
+    } else {}
+
+    currentPosition = -1;
+
 
 
 }

@@ -26,29 +26,14 @@ function draw() {
     textSize(32);
     text("Find the soccer ball?", 50, 250);
 
+    for (var i = 0; i < targetPosX.length; i++) {
+        if (mouseX > targetPosX[i] - 100 && mouseX < targetPosX[i] + 100 && mouseY > targetPosY - 100 && mouseY < targetPosY + 100) {
+            image(pics[i], targetPosX[i], targetPosY);
 
-    if (mouseX > targetPosX[0] - 100 && mouseX < targetPosX[0] + 100 && mouseY > targetPosY - 100 && mouseY < targetPosY + 100) {
-        image(pics[0], targetPosX[0], targetPosY);
-
-    } else {
-        rect(targetPosX[0], 100, 200, 200);
+        } else {
+            rect(targetPosX[i], 100, 200, 200);
+        }
     }
-
-    if (mouseX > targetPosX[1] - 100 && mouseX < targetPosX[1] + 100 && mouseY > targetPosY - 100 && mouseY < targetPosY + 100) {
-        image(pics[1], targetPosX[1], targetPosY);
-
-    } else {
-        rect(targetPosX[1], 100, 200, 200);
-    }
-
-    if (mouseX > targetPosX[2] - 100 && mouseX < targetPosX[2] + 100 && mouseY > targetPosY - 100 && mouseY < targetPosY + 100) {
-        image(pics[2], targetPosX[2], targetPosY);
-
-    } else {
-        rect(targetPosX[2], 100, 200, 200);
-    }
-
-
 
 
 
