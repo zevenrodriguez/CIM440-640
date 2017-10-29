@@ -17,13 +17,7 @@ function draw() {
 
     var currentItemCheck = interfaceItems[0].check();
     console.log(currentItemCheck);
-    var settingFill;
-    if (currentItemCheck == true) {
-        settingFill = 0;
-    } else {
-        settingFill = 255;
-    }
-    interfaceItems[0].display(settingFill);
+    interfaceItems[0].display();
 
 
 
@@ -35,18 +29,21 @@ function interface(tempX, tempY, tempBoxSize) {
     this.x = tempX;
     this.y = tempY;
     this.boxSize = tempBoxSize;
+    this.setFill = 0;
 
 
-    this.display = function (setFill) {
-        fill(setFill);
+    this.display = function() {
+        fill(this.setFill);
         rect(this.x, this.y, this.boxSize, this.boxSize);
     }
 
 
     this.check = function () {
         if (mouseX > this.x && mouseX < (this.x + this.boxSize) && mouseY > this.y && mouseY < (this.y + this.boxSize)) {
+            this.setFill = 255;
             return true;
         } else {
+            this.setFill = 0;
             return false;
         }
     }
@@ -55,7 +52,7 @@ function interface(tempX, tempY, tempBoxSize) {
 function mousePressed(){
     var checkItem1 = interfaceItems[0].check();
     if(checkItem1 == true){
-       wasPressed = "You pressed interfaceitem[0]";
+       wasPressed = "check1";
         console.log(wasPressed);
        }else{
            wasPressed = "";
