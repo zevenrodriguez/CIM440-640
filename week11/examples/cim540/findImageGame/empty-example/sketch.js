@@ -38,6 +38,7 @@ function draw() {
 
         } else {
             rect(targetPosX[i], 100, 200, 200);
+
         }
 
     }
@@ -46,9 +47,12 @@ function draw() {
 
     if (currentPosition == answer) {
         console.log("Correct");
+
+        text("You are correct!", 10,300);
     } else if (currentPosition < answer && currentPosition >= 0) {
         console.log("Incorrect");
-    } else {}
+        text("You are incorrect!", 10,300);
+    }
 
     currentPosition = -1;
 
