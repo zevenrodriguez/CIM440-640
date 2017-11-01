@@ -39,10 +39,20 @@ function draw() {
 
         } else {
             rect(targetPosX[i], 100, 200, 200);
+
         }
 
     }
 
+    if(answer == currentPosition){
+      console.log("You guessed correctly");
+      text("You guessed correctly", 10,300);
+    }else if(currentPosition == 0 || currentPosition == 1){
+      console.log("You guessed incorrectly");
+      text("You guessed incorrectly", 10,300);
+    }
+
+    currentPosition = -1;
 
 
 
