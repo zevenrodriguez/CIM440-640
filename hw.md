@@ -77,9 +77,9 @@ Using your character add 5 interactions. They can include:
 
 ## Due Nov 27-28th - 1st Code Plan Due, Explain the user interaction of your project
 
-## Due Nov 29- 30th - Library Tutorial
+## Due Nov 29- 30th - Library Tutorial, First Program Draft (Save folder as ProjectName_V1)
 
-## Dec 4-5th - Final Code Plan Due
+## Dec 4-5th - Final Code Plan Due, Second Program Draft (Save folder as ProjectName_V2)
 
 ## Final Review Dec 11-12th
 
