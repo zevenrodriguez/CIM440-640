@@ -14,8 +14,8 @@
 #### Office Hours: [https://calendly.com/zevenrodriguez](https://calendly.com/zevenrodriguez)
 
 #### Email: zevenrodriguez@miami.edu
- 
- 
+
+
 ## Schedule
 
 ### [Week 1](https://github.com/zevenrodriguez/CIM540-640/tree/master/week1)
@@ -59,30 +59,36 @@ Animation
 
 ### [Week 10  - Week of Oct 23](https://github.com/zevenrodriguez/CIM540-640/tree/master/week10)
 
-Finish Animation, Objects
+Finish Animation
 
-### [Week 11 - Week of Oct 30]()
+### [Week 11 - Week of Oct 30](https://github.com/zevenrodriguez/CIM540-640/tree/master/week11)
 
-Working with audio and video
+Objects
 
-Libraries
+### [Week 12 - Week of Nov 6](https://github.com/zevenrodriguez/CIM540-640/tree/master/week12)
 
-### [Week 12 - Week of Nov 6]()
+Objects
+
+Libraries - Working with audio and gif
+
+### [Week 13 - Week of Nov 13]()
+
+Video
 
 Working with Data, Saving State
 
 Idea Workshop
 
-### [Week 13 - Week of Nov 13]()
-
-Idea Workshop
-
 ### Week 14 - Week of Nov 20 Thanksgiving
 
-### Week 15 - Week of Nov 27 Final Workday
+### Week 15 - Week of Nov 27 Final Workshop 1
 
-### Week 16 - Week of Dec 4 Final Project Review
+### Week 16 - Week of Dec 4 Final Workshop 2
 
-### Week 17 - Week of Dec 11 
+### Week 17 - Week of Dec 11
+
+Final Review Dec 11-12th
 
 ### Week 18 - Week of Dec 18
+
+Final projects Due DEC 18-19th
