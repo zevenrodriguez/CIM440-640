@@ -1,60 +1,64 @@
-
 var interfaceItems = [];
 
-var wasPressed = "";
+var brushSize = 10;
 
-function setup() {
-    createCanvas(400, 400);
+function setup(){
+  createCanvas(400,400);
 
-    interfaceItems.push(new interface(100, 100, 100));
+  interfaceItems.push(new interface(100,100,50, color(255,0,0)));
 
-}
-
-function draw() {
-    background(255);
-    fill(0);
-    text(wasPressed, 10, 10);
-
-    var currentItemCheck = interfaceItems[0].check();
-    console.log(currentItemCheck);
-    interfaceItems[0].display();
-
-
-
+  interfaceItems.push(new interface(200,100,50, color(0,255,0)));
 }
 
 
-function interface(tempX, tempY, tempBoxSize) {
+function draw(){
+  fill(0);
+  ellipse(mouseX,mouseY, brushSize,brushSize);
 
-    this.x = tempX;
-    this.y = tempY;
-    this.boxSize = tempBoxSize;
-    this.setFill = 0;
-
-
-    this.display = function() {
-        fill(this.setFill);
-        rect(this.x, this.y, this.boxSize, this.boxSize);
-    }
-
-
-    this.check = function () {
-        if (mouseX > this.x && mouseX < (this.x + this.boxSize) && mouseY > this.y && mouseY < (this.y + this.boxSize)) {
-            this.setFill = 255;
-            return true;
-        } else {
-            this.setFill = 0;
-            return false;
-        }
-    }
+  interfaceItems[0].check();
+  interfaceItems[0].display();
+  interfaceItems[1].check();
+  interfaceItems[1].display();
+  //console.log(interfaceItems[0].check());
 }
 
 function mousePressed(){
-    var checkItem1 = interfaceItems[0].check();
-    if(checkItem1 == true){
-       wasPressed = "check1";
-        console.log(wasPressed);
-       }else{
-           wasPressed = "";
-       }
+  if(interfaceItems[0].check() == true){
+    console.log("pressed red button");
+    brushSize++;
+  }
+
+  if(interfaceItems[1].check() == true){
+    brushSize--;
+  }
+}
+
+
+function interface(tempX, tempY, tempBoxSize, tempColor){
+  this.x  = tempX;
+  this.y = tempY;
+  this.boxSize = tempBoxSize;
+  this.setFill = tempColor;
+  this.overlay = false;
+
+  this.display = function(){
+    fill(this.setFill);
+    rect(this.x, this.y, this.boxSize, this.boxSize);
+
+    if(this.overlay == true){
+      fill(127,200);
+      rect(this.x, this.y, this.boxSize, this.boxSize);
+    }
+  }
+
+  this.check = function(){
+    if(mouseX > this.x && mouseX < (this.x + this.boxSize) && mouseY > this.y && mouseY < (this.y + this.boxSize)){
+      this.overlay = true;
+      return true;
+    }else{
+      this.overlay = false;
+      return false;
+    }
+  }
+
 }
