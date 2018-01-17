@@ -17,6 +17,8 @@
 
 ### All notes will be posted on the [wiki](https://github.com/zevenrodriguez/CIM540-640/wiki)
 
+### [Syllabus](https://github.com/zevenrodriguez/CIM540-640/blob/master/CIM540-5Q-IntrotoCreativeCoding.pdf)
+
 ## Schedule
 
 ### Week 1 - Introduction to Creative Coding and Github
