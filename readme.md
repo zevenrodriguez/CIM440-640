@@ -21,9 +21,12 @@
 
 ### Week 1 - Introduction to Creative Coding and Github
 
-
+* [Intro to Creative Coding](https://github.com/zevenrodriguez/CIM540-640/wiki/Intro-To-Creative-Coding)
+* [Github](https://github.com/zevenrodriguez/CIM540-640/wiki/Github)
 
 ### Week 2 - Getting Started p5js, Basic Drawing
+
+* [Intro to p5js](https://github.com/zevenrodriguez/CIM540-640/wiki/Intro-To-p5js)
 
 ### Week 3 - Adding Interaction, Conditionals, Mouse Position, User Input
 
