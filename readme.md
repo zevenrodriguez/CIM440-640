@@ -18,77 +18,32 @@
 
 ## Schedule
 
-### [Week 1](https://github.com/zevenrodriguez/CIM540-640/tree/master/week1)
+### [Week 1](https://github.com/zevenrodriguez/CIM540-640/tree/master/week1) - Introduction to Creative Coding and Github
 
-Introduction to Creative Coding
-Getting started with Github
+### [Week 2](https://github.com/zevenrodriguez/CIM540-640/tree/master/week2) - Getting Started p5js, Basic Drawing
 
-### [Week 2](https://github.com/zevenrodriguez/CIM540-640/tree/master/week2)
+### [Week 3](https://github.com/zevenrodriguez/CIM540-640/tree/master/week3) - Adding Interaction, Conditionals, Mouse Position, User Input
 
-Intro to Javascript
+### [Week 4](https://github.com/zevenrodriguez/CIM540-640/tree/master/week4) - Arrays, Key/Value Pairs, Loops, and Animation
 
-### [Week 3](https://github.com/zevenrodriguez/CIM540-640/tree/master/week3)
+### [Week 5](https://github.com/zevenrodriguez/CIM540-640/tree/master/week5) - Functions
 
-Functions
+### [Week 6](https://github.com/zevenrodriguez/CIM540-640/tree/master/week6) - Objects
 
-### [Week 4](https://github.com/zevenrodriguez/CIM540-640/tree/master/week4)
+### [Week 7](https://github.com/zevenrodriguez/CIM540-640/tree/master/week7) - Midterm Project Workday
 
+### [Week 8](https://github.com/zevenrodriguez/CIM540-640/tree/master/week8) - Midterm Project Presentation
 
-### [Week 5](https://github.com/zevenrodriguez/CIM540-640/tree/master/week5)
+### [Week 9](https://github.com/zevenrodriguez/CIM540-640/tree/master/week9) - Spring Break
 
+### [Week 10](https://github.com/zevenrodriguez/CIM540-640/tree/master/week10) - Working with Data
 
-### [Week 6 - Week of Sept 25](https://github.com/zevenrodriguez/CIM540-640/tree/master/week6)
+### [Week 11](https://github.com/zevenrodriguez/CIM540-640/tree/master/week11) - Working with Libraries
 
-Conditionals
+### [Week 12](https://github.com/zevenrodriguez/CIM540-640/tree/master/week12) - Final Project Ideation workshop
 
-Arrays
+### [Week 13]() - Final Project idea presentation
 
-### [Week 7 - Week of Oct 2](https://github.com/zevenrodriguez/CIM540-640/tree/master/week7)
+### Week 14 - Workday
 
-Intro to p5.js
-
-Programming Interaction and User Input
-
-### [Week 8  - Week of Oct 9](https://github.com/zevenrodriguez/CIM540-640/tree/master/week8)
-
-Creating an interface
-
-### [Week 9 - Week of Oct 16](https://github.com/zevenrodriguez/CIM540-640/tree/master/week9)
-
-Animation
-
-### [Week 10  - Week of Oct 23](https://github.com/zevenrodriguez/CIM540-640/tree/master/week10)
-
-Finish Animation
-
-### [Week 11 - Week of Oct 30](https://github.com/zevenrodriguez/CIM540-640/tree/master/week11)
-
-Objects
-
-### [Week 12 - Week of Nov 6](https://github.com/zevenrodriguez/CIM540-640/tree/master/week12)
-
-Objects
-
-Libraries - Working with audio and gif
-
-### [Week 13 - Week of Nov 13]()
-
-Video
-
-Working with Data, Saving State
-
-Idea Workshop
-
-### Week 14 - Week of Nov 20 Thanksgiving
-
-### Week 15 - Week of Nov 27 Final Workshop 1
-
-### Week 16 - Week of Dec 4 Final Workshop 2
-
-### Week 17 - Week of Dec 11
-
-Final Review Dec 11-12th
-
-### Week 18 - Week of Dec 18
-
-Final projects Due DEC 18-19th
+### Week 15 - Final Presentation
