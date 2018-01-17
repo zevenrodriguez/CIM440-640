@@ -15,34 +15,37 @@
 
 #### Email: zevenrodriguez@miami.edu
 
+### All notes will be posted on the [wiki](https://github.com/zevenrodriguez/CIM540-640/wiki)
 
 ## Schedule
 
-### [Week 1](https://github.com/zevenrodriguez/CIM540-640/tree/master/week1) - Introduction to Creative Coding and Github
+### Week 1 - Introduction to Creative Coding and Github
 
-### [Week 2](https://github.com/zevenrodriguez/CIM540-640/tree/master/week2) - Getting Started p5js, Basic Drawing
 
-### [Week 3](https://github.com/zevenrodriguez/CIM540-640/tree/master/week3) - Adding Interaction, Conditionals, Mouse Position, User Input
 
-### [Week 4](https://github.com/zevenrodriguez/CIM540-640/tree/master/week4) - Arrays, Key/Value Pairs, Loops, and Animation
+### Week 2 - Getting Started p5js, Basic Drawing
 
-### [Week 5](https://github.com/zevenrodriguez/CIM540-640/tree/master/week5) - Functions
+### Week 3 - Adding Interaction, Conditionals, Mouse Position, User Input
 
-### [Week 6](https://github.com/zevenrodriguez/CIM540-640/tree/master/week6) - Objects
+### Week 4 - Arrays, Key/Value Pairs, Loops, and Animation
 
-### [Week 7](https://github.com/zevenrodriguez/CIM540-640/tree/master/week7) - Midterm Project Workday
+### Week 5 - Functions
 
-### [Week 8](https://github.com/zevenrodriguez/CIM540-640/tree/master/week8) - Midterm Project Presentation
+### Week 6 - Objects
 
-### [Week 9](https://github.com/zevenrodriguez/CIM540-640/tree/master/week9) - Spring Break
+### Week 7 - Midterm Project Workday
 
-### [Week 10](https://github.com/zevenrodriguez/CIM540-640/tree/master/week10) - Working with Data
+### Week 8 - Midterm Project Presentation
 
-### [Week 11](https://github.com/zevenrodriguez/CIM540-640/tree/master/week11) - Working with Libraries
+### Week 9 - Spring Break
 
-### [Week 12](https://github.com/zevenrodriguez/CIM540-640/tree/master/week12) - Final Project Ideation workshop
+### Week 10 - Working with Data
 
-### [Week 13]() - Final Project idea presentation
+### Week 11 - Working with Libraries
+
+### Week 12 - Final Project Ideation workshop
+
+### Week 13 - Final Project idea presentation
 
 ### Week 14 - Workday
 
