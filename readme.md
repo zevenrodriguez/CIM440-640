@@ -29,8 +29,11 @@
 ### Week 2 - Getting Started p5js, Basic Drawing
 
 * [Intro to p5js](https://github.com/zevenrodriguez/CIM540-640/wiki/Intro-To-p5js)
+* [Getting Started Example](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/gettingstarted/sketch.js)
 
 ### Week 3 - Adding Interaction, Conditionals, Mouse Position, User Input
+
+* [Interaction](https://github.com/zevenrodriguez/CIM540-640/wiki/Interaction)
 
 ### Week 4 - Arrays, Key/Value Pairs, Loops, and Animation
 
