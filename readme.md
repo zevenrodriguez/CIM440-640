@@ -43,9 +43,9 @@
 * [Input Text and Button](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/inputAndButton/sketch.js)
 * [Basic Image](https://github.com/zevenrodriguez/CIM540-640/tree/master/p5/basicImage)
 * [Interacting with the world Start]()
-* [Interacting with the world Start Zip File]()
+* [Interacting with the world Start Zip File](https://github.com/zevenrodriguez/CIM540-640/raw/master/p5/interactingWithTheWorldStart.zip)
 * [Interacting with the world Finished](https://zevenrodriguez.github.io/CIM540-640/p5/interactingWithTheWorld/)
-* [Interacting with the world Finished Zip file]()
+* [Interacting with the world Finished Zip file](https://github.com/zevenrodriguez/CIM540-640/raw/master/p5/interactingWithTheWorld.zip)
 
 
 ### Week 5 -  Arrays, Key/Value Pairs, Loops, and Animation
