@@ -50,6 +50,7 @@ function draw() {
         randomColor[0] = random(256);
         randomColor[1] = random(256);
         randomColor[2] = random(256);
+        changeColor = false;
 
     }
 
