@@ -49,6 +49,8 @@ function draw() {
   //eye1
   var xOffset = map(mouseX, 0, width, -20,20);
   var yOffset = map(mouseY, 0, height, -20,20);
+
+
   console.log("xOffset: " + xOffset + " yOffset: " + yOffset);
   fill(eyeColor);
   ellipse(centerX -100 + xOffset, centerY -50 + yOffset, 50 + xOffset, 50);

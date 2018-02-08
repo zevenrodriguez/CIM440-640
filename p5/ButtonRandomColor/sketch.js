@@ -16,7 +16,7 @@ function draw() {
 }
 
 function changeBG() {
-  r = random(0,255);
-  g = random(0,255);
-  b = random(0,255);
+  r = random(0,256);
+  g = random(0,256);
+  b = random(0,256);
 }
