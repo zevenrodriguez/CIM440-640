@@ -1,5 +1,5 @@
 var interval = 50;
-var prevMillis = 0;;
+var prevMillis = 0;
 
 var posX = 0;
 var posY = 0;
@@ -11,7 +11,7 @@ function setup() {
 
     posX = random(width);
     posY = random(height);
-    
+
 }
 
 

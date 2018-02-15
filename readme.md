@@ -54,6 +54,7 @@
 * [Millis](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/millis/sketch.js)
 * [Frame Animation](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/frameAnimationStart.zip)
 * [Bounce](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/bounce/sketch.js)
+* [Bubble](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/bubble/sketch.js)
 
 ### Week 6 - Key/Value Pairs, Functions, and Objects
 

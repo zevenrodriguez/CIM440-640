@@ -3,34 +3,35 @@ var posY = 0;
 
 var directionY = true;
 
+var offsetX = 0;
+
+var interval = 1000;
+var prevMillis = 0;
+
+var degree = 0;
+
 function setup() {
 
-    createCanvas(500, 500);
-    posY = height;
+  createCanvas(500, 500);
+  posY = height;
 
 
 }
 
 function draw() {
-    background(255);
+  background(255);
 
+  ellipse(width / 2 + offsetX, posY, 50, 50);
 
-        ellipse(width / 2, posY, 50, 50);
+  if (directionY == true) {
+    posY-=0.5;
+    degree+=0.02;
+    offsetX = cos(degree) * 100;
+    console.log(offsetX);
+  }
 
-        if (directionY == false) {
-            posY++;
-        } else {
-            posY--;
-        }
-
-        if (posY >= height) {
-            directionY = true;
-        }
-
-        if (posY <= 0) {
-            directionY = height;
-        }
-
-
+  if (posY <= 0) {
+    posY = height;
+  }
 
 }
