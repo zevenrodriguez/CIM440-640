@@ -48,9 +48,14 @@
 * [Interacting with the world Finished Zip file](https://github.com/zevenrodriguez/CIM540-640/raw/master/p5/interactingWithTheWorld.zip)
 
 
-### Week 5 -  Arrays, Key/Value Pairs, Loops, and Animation
+### Week 5 -  Arrays, Loops, and Animation
 
-### Week 6 - Functions and Objects
+* [Find Image Game](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/findImageGame.zip)
+* [Millis](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/millis/sketch.js)
+* [Frame Animation](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/frameAnimationStart.zip)
+* [Bounce](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/bounce/sketch.js)
+
+### Week 6 - Key/Value Pairs, Functions, and Objects
 
 ### Week 7 - Midterm Project Workday
 
