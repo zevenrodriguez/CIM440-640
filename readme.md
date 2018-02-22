@@ -61,7 +61,6 @@
 * [Frame Animation](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/frameAnimationStart.zip)
 * [Bounce](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/bounce/sketch.js)
 * [Bubble](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/bubble/sketch.js)
-
 * [Quiz](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/quiz/sketch.js)
 * [Poll Array](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/pushPop/sketch.js)
 
