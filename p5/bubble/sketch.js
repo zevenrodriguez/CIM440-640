@@ -26,7 +26,7 @@ function draw() {
   if (directionY == true) {
     posY-=0.5;
     degree+=0.02;
-    offsetX = cos(degree) * 100;
+    offsetX = sin(degree) * 100;
     console.log(offsetX);
   }
 
