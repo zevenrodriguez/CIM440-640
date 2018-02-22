@@ -56,7 +56,13 @@
 * [Bounce](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/bounce/sketch.js)
 * [Bubble](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/bubble/sketch.js)
 
-### Week 6 - Key/Value Pairs, Functions, and Objects
+### Week 6 - More Arrays and Key/Value Pairs
+
+* [Frame Animation](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/frameAnimationStart.zip)
+* [Bounce](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/bounce/sketch.js)
+* [Bubble](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/bubble/sketch.js)
+
+* []()
 
 ### Week 7 - Midterm Project Workday
 
@@ -64,9 +70,9 @@
 
 ### Week 9 - Spring Break
 
-### Week 10 - Working with Data
+### Week 10 - Functions and Objects
 
-### Week 11 - Working with Libraries
+### Week 11 - Working with Data and Libraries
 
 ### Week 12 - Final Project Ideation workshop
 
