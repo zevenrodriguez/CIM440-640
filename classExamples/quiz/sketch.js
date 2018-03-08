@@ -2,6 +2,8 @@ var questions = ["Is Iceland coverd in ice?","What ocean lies to the east of US?
 var options = [["true","false"],["pacific","eastern","indian","atlantic"]];
 var answers = ["false","atlantic"];
 
+var answer = "";
+
 var currentQuestion = 0;
 
 var currentOption = -1;
@@ -28,5 +30,20 @@ function draw() {
       }
   }
 
+  text(answer, 20,150);
+}
 
+function mousePressed(){
+  if(options[currentQuestion][currentOption] == answers[currentQuestion]){
+    console.log("Correct");
+    currentQuestion++;
+    if(currentQuestion >= questions.length){
+      currentQuestion = 0;
+    }
+    answer = "Correct";
+  }else{
+    console.log("Try Again");
+
+    answer = "Try Again";
+  }
 }
