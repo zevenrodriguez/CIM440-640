@@ -33,7 +33,7 @@ function draw() {
 
         textAlign(CENTER);
 
-        text(keys, choices[keys][1], choices[keys][2]);
+        text(keys, choices[keys][1], choices[keys][2] );
 
     }
 
@@ -52,13 +52,13 @@ function draw() {
     //    ellipse(260, (height / 2) + 50, choices["Savory"], choices["Savory"]);
     //
     //    fill(0, 0, 0);
-    //    
+    //
     //    textAlign(CENTER);
     //    text(cakeMessage, 40, height / 2);
     //    text(candyMessage, 100, height / 2);
     //    text(pieMessage, 180, height / 2);
     //    text(savoryMessage, 260, height / 2);
-    //    
+    //
     //    text("Press 1,2,3,4 to vote", 75, 25);
 
 
