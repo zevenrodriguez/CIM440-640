@@ -19,6 +19,10 @@
 
 ### [Syllabus](https://github.com/zevenrodriguez/CIM540-640/blob/master/CIM540-5Q-IntrotoCreativeCoding.pdf)
 
+### [Canesfilm Festival Interactive Media End of Year Show](https://interactive.miami.edu/canesfilmfestival/)
+
+Applications Due April 20th
+
 ## Schedule
 
 ### Week 1 - Introduction to Creative Coding and Github
