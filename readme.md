@@ -84,4 +84,4 @@ Applications Due April 20th
 
 ### Week 14 - Workday
 
-### Week 15 - Final Presentation
+### Week 15 - [Final Presentation](https://github.com/zevenrodriguez/CIM540-640/wiki/Final)
