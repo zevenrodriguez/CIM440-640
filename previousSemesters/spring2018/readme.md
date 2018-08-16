@@ -1,8 +1,8 @@
-# CIM 640-39 - Intro to Creative Coding
+# CIM 540-36, CIM 640-S - Intro to Creative Coding
 
-#### Tu-Th 5:00 – 6:15PM
+#### M-W 12:20 - 1:35, Tu-Th 3:30 – 4:45PM
 
-#### Fall Semester 2018
+#### Fall Semester 2017
 
 ### [Class Site: https://github.com/zevenrodriguez/CIM540-640](https://github.com/zevenrodriguez/CIM540-640)
 
@@ -17,8 +17,9 @@
 
 ### All notes will be posted on the [wiki](https://github.com/zevenrodriguez/CIM540-640/wiki)
 
-### [Syllabus](CIM640-39-IntrotoCreativeCoding.pdf)
+### [Syllabus](https://github.com/zevenrodriguez/CIM540-640/blob/master/CIM540-5Q-IntrotoCreativeCoding.pdf)
 
+### [Canesfilm Festival Interactive Media End of Year Show](https://interactive.miami.edu/canesfilmfestival/)
 
 Applications Due April 20th
 
