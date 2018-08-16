@@ -22,65 +22,43 @@
 
 Applications Due April 20th
 
-## Schedule
+## Calendar
 
-### Week 1 - Introduction to Creative Coding and Github
+### Week 1 -  Introduction to Creative Coding and Github Aug 20th-23rd
 
 * [Intro to Creative Coding](https://github.com/zevenrodriguez/CIM540-640/wiki/Intro-To-Creative-Coding)
 * [Github](https://github.com/zevenrodriguez/CIM540-640/wiki/Github)
 
-### Week 2 - Getting Started p5js, Basic Drawing
+### Week 2 -Getting Started p5js, Basic Drawing Aug 27th-30th
 
-* [Intro to p5js](https://github.com/zevenrodriguez/CIM540-640/wiki/Intro-To-p5js)
-* [Getting Started Example](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/gettingstarted/sketch.js)
+### Week 3 - Adding Interaction, Conditionals, Mouse Position, User Input (Sept 3rd-6th)
 
-### Week 3 - Adding Interaction, Conditionals, Mouse Position, User Input
+#### Sept 3rd Labor Day
 
-* [Interaction](https://github.com/zevenrodriguez/CIM540-640/wiki/Interaction)
+### Week 4 - Interacting with the World (Sept 10th-13th)
 
-### Week 4 -Interacting with the World
+### Week 5 - Arrays, Loops, and Animation (Sept 17th- 20th)
 
-* [Basic Text](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/basicText/sketch.js)
-* [Keyboard Input](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/keyboardInput/sketch.js)
-* [Button and Random Color](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/ButtonRandomColor/sketch.js)
-* [Input Text and Button](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/inputAndButton/sketch.js)
-* [Basic Image](https://github.com/zevenrodriguez/CIM540-640/tree/master/p5/basicImage)
-* [Interacting with the world Start]()
-* [Interacting with the world Start Zip File](https://github.com/zevenrodriguez/CIM540-640/raw/master/p5/interactingWithTheWorldStart.zip)
-* [Interacting with the world Finished](https://zevenrodriguez.github.io/CIM540-640/p5/interactingWithTheWorld/)
-* [Interacting with the world Finished Zip file](https://github.com/zevenrodriguez/CIM540-640/raw/master/p5/interactingWithTheWorld.zip)
+### Week 6 - More Arrays and Key/Value Pairs (Sept 24th-27nd)
 
+### Week 7 - [Midterm Project Workday](https://github.com/zevenrodriguez/CIM540-640/wiki/Midterm) (Oct 1st-4th)
 
-### Week 5 -  Arrays, Loops, and Animation
+### Week 8 -  [Midterm Project Presentation](https://github.com/zevenrodriguez/CIM540-640/wiki/Midterm) (Oct 8th-11th)
 
-* [Find Image Game](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/findImageGame.zip)
-* [Millis](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/millis/sketch.js)
-* [Frame Animation](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/frameAnimationStart.zip)
-* [Bounce](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/bounce/sketch.js)
-* [Bubble](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/bubble/sketch.js)
+### Week 9 - Functions and Objects (Oct 15th-17th)
 
-### Week 6 - More Arrays and Key/Value Pairs
+#### Oct 18-21st Fall Recess
 
-* [Frame Animation](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/frameAnimationStart.zip)
-* [Bounce](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/bounce/sketch.js)
-* [Bubble](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/bubble/sketch.js)
-* [Quiz](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/quiz/sketch.js)
-* [Poll Array](https://github.com/zevenrodriguez/CIM540-640/blob/master/p5/pollArray/sketch.js)
+### Week 10 – Working with Data and Libraries (Oct 22nd- 25th)
 
-### Week 7 - [Midterm Project Workday](https://github.com/zevenrodriguez/CIM540-640/wiki/Midterm)
+### Week 11 – Final Project Ideation workshop (Oct 29th-Nov 1st)
 
-### Week 8 - [Midterm Project Presentation](https://github.com/zevenrodriguez/CIM540-640/wiki/Midterm)
+### Week 12 – Final Project Ideation workshop (Nov 5th - 12th)
 
-### Week 9 - Spring Break
+### Week 13 – Final Project idea presentation (Nov 12th-15th)
 
-### Week 10 - Functions and Objects
+#### Nov 17th - Nov 25th Thanksgiving Recess
 
-### Week 11 - Working with Data and Libraries
+### Week 14 – Final Project Lab (Nov 26th – 29th)
 
-### Week 12 - Final Project Ideation workshop
-
-### Week 13 - Final Project idea presentation
-
-### Week 14 - Workday
-
-### Week 15 - [Final Presentation](https://github.com/zevenrodriguez/CIM540-640/wiki/Final)
+### Final -
