@@ -61,4 +61,4 @@ Applications Due April 20th
 
 ### Week 14 – Final Project Lab (Nov 26th – 29th)
 
-### Final -
+### Final - Dec 6th 5:00-7:30PM
