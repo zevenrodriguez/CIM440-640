@@ -19,17 +19,15 @@
 
 ### [Syllabus](CIM640-39-IntrotoCreativeCoding.pdf)
 
-
-Applications Due April 20th
-
 ## Calendar
 
 ### Week 1 -  Introduction to Creative Coding and Github Aug 20th-23rd
 
-* [Intro to Creative Coding](https://github.com/zevenrodriguez/CIM540-640/wiki/Intro-To-Creative-Coding)
-* [Github](https://github.com/zevenrodriguez/CIM540-640/wiki/Github)
+* [Intro to Creative Coding](../notes/Intro-To-Creative-Coding.md)
 
 ### Week 2 -Getting Started p5js, Basic Drawing Aug 27th-30th
+
+* [Github](https://github.com/zevenrodriguez/CIM540-640/wiki/Github)
 
 ### Week 3 - Adding Interaction, Conditionals, Mouse Position, User Input (Sept 3rd-6th)
 
