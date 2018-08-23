@@ -4,18 +4,14 @@
 
 #### Fall Semester 2018
 
-### [Class Site: https://github.com/zevenrodriguez/CIM540-640](https://github.com/zevenrodriguez/CIM540-640)
+* Email: zevenrodriguez@miami.edu
+* Office UM School of Communication Francis L. Wolfson Building 2nd Fl Room 2022
+* Office Hours
+  * Tuesday 10AM-12PM
+  * Thursday 10AM-12PM
+  * To sign up for office hours please visit https://calendly.com/zevenrodriguez
 
-
-#### Zevensuy Rodriguez
-
-#### Office: Francis L. Wolfson Building 2022
-
-#### Office Hours: [https://calendly.com/zevenrodriguez](https://calendly.com/zevenrodriguez)
-
-#### Email: zevenrodriguez@miami.edu
-
-### All notes will be posted on the [wiki](https://github.com/zevenrodriguez/CIM540-640/wiki)
+### All notes will be posted on the [wiki](https://github.com/zevenrodriguez/CIM540-640/wiki) or below
 
 ### [Syllabus](CIM640-39-IntrotoCreativeCoding.pdf)
 
@@ -24,10 +20,11 @@
 ### Week 1 -  Introduction to Creative Coding and Github Aug 20th-23rd
 
 * [Intro to Creative Coding](/notes/Intro-To-Creative-Coding.md)
+* [Setting up your environment](/notes/Setting-Up-Your-Environment.md)
 
 ### Week 2 -Getting Started p5js, Basic Drawing Aug 27th-30th
 
-* [Github](https://github.com/zevenrodriguez/CIM540-640/wiki/Github)
+* [Github](/notes/Github.md)
 
 ### Week 3 - Adding Interaction, Conditionals, Mouse Position, User Input (Sept 3rd-6th)
 
