@@ -1,8 +1,5 @@
-## 1. Homework
+## 1. Homework - Impossible App
 
-* Create a repository
-* Add readme.md file
- * Include a name, a brief bio, and an image (You can upload or simply link to one)
 * Create the impossible application:
  * Create an impossible application, this application can be useful or be self servient. The most important is to think about how a user is going to operate your application. Think about each step the user is going to take. Have fun with this! Feel free to illustrate your application on paper.
 
@@ -15,6 +12,9 @@
 
 [The Perfect Joe](https://github.com/zevenrodriguez/CIM540-640/blob/master/examples/week1/theperfectjoe.md)
 
+###### The De-atomizer: Universal Trash Converter
+
+[Deatomizer](https://github.com/zevenrodriguez/CIM542-642/blob/master/files/deatomizer.jpg)
 
 ## 2. Homework
 
