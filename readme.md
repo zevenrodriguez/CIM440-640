@@ -23,7 +23,7 @@
 
 ### Week 1 -  Introduction to Creative Coding and Github Aug 20th-23rd
 
-* [Intro to Creative Coding](../notes/Intro-To-Creative-Coding.md)
+* [Intro to Creative Coding](/notes/Intro-To-Creative-Coding.md)
 
 ### Week 2 -Getting Started p5js, Basic Drawing Aug 27th-30th
 
