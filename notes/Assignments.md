@@ -14,7 +14,7 @@
 
 ##### The De-atomizer: Universal Trash Converter
 
-![Deatomizer](https://github.com/zevenrodriguez/CIM542-642/blob/master/files/deatomizer.jpg)
+![Deatomizer](../files/deatomizer.jpg)
 
 ## 2. Homework
 
