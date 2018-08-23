@@ -24,7 +24,7 @@
 
 ##### HW
 
-* [The Impossible App]()
+* [The Impossible App](/notes/Assignments.md#1-homework---impossible-app)
 
 ### Week 2 -Getting Started p5js, Basic Drawing Aug 27th-30th
 
