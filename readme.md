@@ -11,7 +11,7 @@
   * Thursday 10AM-12PM
   * To sign up for office hours please visit https://calendly.com/zevenrodriguez
 
-### All notes will be posted on the [wiki](https://github.com/zevenrodriguez/CIM540-640/wiki) or below
+### [All notes will be posted on the here or below](/notes)
 
 ### [Syllabus](CIM640-39-IntrotoCreativeCoding.pdf)
 
