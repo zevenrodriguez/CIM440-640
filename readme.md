@@ -1,3 +1,4 @@
+
 # CIM 640-39 - Intro to Creative Coding
 
 #### Tu-Th 5:00 – 6:15PM
