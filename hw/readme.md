@@ -1,4 +1,4 @@
-# Assignements
+# Assignments
 
 * [Impossible App]()
 * [Character]()
