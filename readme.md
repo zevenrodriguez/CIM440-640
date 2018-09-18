@@ -31,11 +31,11 @@
 
 * [Github](/notes/Github.md)
 
-### Week 3 - Adding Interaction, Conditionals, Mouse Position, User Input (Sept 3rd-6th)
+### [Week 3 - Adding Interaction, Conditionals, Mouse Position, User Input (Sept 3rd-6th)](/notes/Interaction.md)
 
 #### Sept 3rd Labor Day
 
-### Week 4 - Interacting with the World (Sept 10th-13th)
+### Week 4 - [Interacting with the World (Sept 10th-13th)](/notes/Interaction.md)
 
 ### Week 5 - Arrays, Loops, and Animation (Sept 17th- 20th)
 
