@@ -34,6 +34,8 @@ function setup() {
       sunShow = false;
     }
   });
+
+  //sunButton.mousePressed(showImage);
 }
 
 function draw() {
