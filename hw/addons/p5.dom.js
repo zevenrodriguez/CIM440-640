@@ -187,7 +187,7 @@
   p5.prototype._wrapElement = function(elt) {
     var children = Array.prototype.slice.call(elt.children);
     if (elt.tagName === 'INPUT' && elt.type === 'checkbox') {
-      var converted = new p5.Element(elt);
+      var converted = new p5.Element(elt, this);
       converted.checked = function() {
         if (arguments.length === 0) {
           return this.elt.checked;
@@ -200,18 +200,18 @@
       };
       return converted;
     } else if (elt.tagName === 'VIDEO' || elt.tagName === 'AUDIO') {
-      return new p5.MediaElement(elt);
+      return new p5.MediaElement(elt, this);
     } else if (elt.tagName === 'SELECT') {
-      return this.createSelect(new p5.Element(elt));
+      return this.createSelect(new p5.Element(elt, this));
     } else if (
       children.length > 0 &&
       children.every(function(c) {
         return c.tagName === 'INPUT' || c.tagName === 'LABEL';
       })
     ) {
-      return this.createRadio(new p5.Element(elt));
+      return this.createRadio(new p5.Element(elt, this));
     } else {
-      return new p5.Element(elt);
+      return new p5.Element(elt, this);
     }
   };
 
@@ -248,7 +248,9 @@
   function addElement(elt, pInst, media) {
     var node = pInst._userNode ? pInst._userNode : document.body;
     node.appendChild(elt);
-    var c = media ? new p5.MediaElement(elt) : new p5.Element(elt);
+    var c = media
+      ? new p5.MediaElement(elt, pInst)
+      : new p5.Element(elt, pInst);
     pInst._elements.push(c);
     return c;
   }
@@ -1934,7 +1936,7 @@
         this.width = this.elt.offsetWidth;
         this.height = this.elt.offsetHeight;
 
-        if (this._pInst) {
+        if (this._pInst && this._pInst._curElement) {
           // main canvas associated with p5 instance
           if (this._pInst._curElement.elt === this.elt) {
             this._pInst._setProperty('width', this.elt.offsetWidth);
@@ -2632,6 +2634,9 @@
     return this.elt.duration;
   };
   p5.MediaElement.prototype.pixels = [];
+  p5.MediaElement.prototype._ensureCanvas = function() {
+    if (!this.canvas) this.loadPixels();
+  };
   p5.MediaElement.prototype.loadPixels = function() {
     if (!this.canvas) {
       this.canvas = document.createElement('canvas');
@@ -2670,6 +2675,7 @@
   p5.MediaElement.prototype.updatePixels = function(x, y, w, h) {
     if (this.loadedmetadata) {
       // wait for metadata
+      this._ensureCanvas();
       p5.Renderer2D.prototype.updatePixels.call(this, x, y, w, h);
     }
     this.setModified(true);
@@ -2680,10 +2686,9 @@
       // wait for metadata
       var currentTime = this.elt.currentTime;
       if (this._pixelsTime !== currentTime) {
-        // if the video has changed time, then force an
-        // update to the pixels array.
-        this._pixelsDirty = true;
-        this._pixelsTime = currentTime;
+        this.loadPixels();
+      } else {
+        this._ensureCanvas();
       }
 
       return p5.Renderer2D.prototype.get.call(this, x, y, w, h);
@@ -2698,11 +2703,13 @@
   p5.MediaElement.prototype.set = function(x, y, imgOrCol) {
     if (this.loadedmetadata) {
       // wait for metadata
+      this._ensureCanvas();
       p5.Renderer2D.prototype.set.call(this, x, y, imgOrCol);
       this.setModified(true);
     }
   };
   p5.MediaElement.prototype.copy = function() {
+    this._ensureCanvas();
     p5.Renderer2D.prototype.copy.apply(this, arguments);
   };
   p5.MediaElement.prototype.mask = function() {
