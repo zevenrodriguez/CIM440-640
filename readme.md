@@ -41,17 +41,17 @@
 
 ### Week 6 - More Arrays and Key/Value Pairs (Sept 24th-27nd)
 
-### Week 7 - [Midterm Project Workday](https://github.com/zevenrodriguez/CIM540-640/wiki/Midterm) (Oct 1st-4th)
+### Week 7 - Animation and Interface (Oct 1st-4th)
 
-### Week 8 -  [Midterm Project Presentation](https://github.com/zevenrodriguez/CIM540-640/wiki/Midterm) (Oct 8th-11th)
+### Week 8 -  [Midterm Project Workdays](https://github.com/zevenrodriguez/CIM540-640/wiki/Midterm) (Oct 8th-11th)
 
-### Week 9 - Functions and Objects (Oct 15th-17th)
+### Week 9 - [Midterm Project Presentation](https://github.com/zevenrodriguez/CIM540-640/wiki/Midterm) (Oct 16th)
 
 #### Oct 18-21st Fall Recess
 
-### Week 10 – Working with Data and Libraries (Oct 22nd- 25th)
+### Week 10 – Functions and Objects (Oct 22nd- 25th)
 
-### Week 11 – Final Project Ideation workshop (Oct 29th-Nov 1st)
+### Week 11 – Working with Data and Libraries (Oct 29th-Nov 1st)
 
 ### Week 12 – Final Project Ideation workshop (Nov 5th - 12th)
 
