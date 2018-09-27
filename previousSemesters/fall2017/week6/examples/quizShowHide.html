@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz</title>
+
+    <style>
+        /* Enter CSS below */
+    </style>
+
+</head>
+
+
+<body>
+
+    <h1>Quiz</h1>
+
+    <p><i>Answer the following questions</i></p>
+
+    <form id="quizForm">
+
+
+        <label for="question1">Is Iceland covered in ice?</label>
+        <select name="question1" id="question1" class="question">
+            <option value="true">true</option>
+            <option value="false">false</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="question2">What ocean lies on the east coast of the United States?</label>
+        <select name="question2" id="question2" class="question">
+            <option value="pacific">pacific</option>
+            <option value="eastern">eastern</option>
+            <option value="atlantic">atlantic</option>
+            <option value="indian">indian</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="question3">What is the highest mountain on earth?</label>
+        <select name="question3" id="question3" class="question">
+            <option value="kilimanjaro">kilimanjaro</option>
+            <option value="makalu">makalu</option>
+            <option value="mounteverest">Mount Everest</option>
+            <option value="k2">k2</option>
+        </select>
+
+        <br>
+        <br>
+
+        <button type="button" id="submitAnswers">Submit Answers</button>
+
+    </form>
+
+    <br>
+
+    <div id="outputText"></div>
+
+    <div id="tryAgain">Click here to try again! </div>
+
+    <script>
+        /* Comment: Enter code below */
+
+        function checkAnswers() {
+            var getResponse = document.getElementsByClassName("question");
+
+            //console.log(getResponse[0].value); To view the value of each individual element
+
+            quizForm.style.display = "none";
+            tryAgain.style.display = "block";
+            output.style.display = "block";
+
+
+            if (getResponse[0].value == answers[0] && getResponse[1].value == answers[1] && getResponse[2].value == answers[2]) {
+                console.log("You are so smart");
+                output.innerHTML = "<h3>You are so smart</h3>";
+            } else {
+                console.log("Study alittle harder");
+                output.innerHTML = "<h3>Study alittle harder</h3>";
+            }
+        }
+
+        var answers = ["false", "atlantic", "mounteverest"];
+
+        var getButton = document.getElementById("submitAnswers");
+
+        getButton.addEventListener("click", checkAnswers);
+
+        var output = document.getElementById("outputText");
+
+        var quizForm = document.getElementById("quizForm");
+
+        var tryAgain = document.getElementById("tryAgain");
+        tryAgain.style.display = "none";
+
+
+        tryAgain.addEventListener("click", function () {
+            quizForm.style.display = "block";
+            tryAgain.style.display = "none";
+            output.style.display = "none";
+
+        });
+    </script>
+
+</body>
+
+</html>

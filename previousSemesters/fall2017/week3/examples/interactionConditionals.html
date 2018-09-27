@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My App</title>
+
+    <style>
+        /* Enter CSS below */
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <h1>Tootsie Pop Calculator</h1>
+
+    <p><i>Enter your how many licks you have given your Tootsie pop in order to figure how far you have left.</i></p>
+
+    <img src="http://www.tootsie.com/core/files/tootsie/uploads/images/TP_Favorite.png" width="400">
+
+    <br>
+    <br>
+
+    <form>
+        <label for="licks">Enter number of licks: </label>
+        <input type="text" name="licks" id="licks">
+
+        <br>
+        <br>
+
+        <!--        <button type="button" id="lButton" onclick="centerOfPop()">Enter Licks</button>-->
+
+        <button type="button" id="lButton">Enter Licks</button>
+
+        <br>
+        <br>
+
+        <div id="output"></div>
+
+    </form>
+
+    <script>
+        /* Comment: Enter code below */
+
+        var averageLicks = 252;
+
+        function centerOfPop() {
+            var licksAmount = document.getElementById("licks").value;
+            console.log("Licks amount: " + licksAmount);
+
+            lickRatio = licksAmount / averageLicks * 100;
+
+            lickRatio = Math.round(lickRatio);
+
+            if (lickRatio > 100) {
+                var message = "You have gone beyond the tootsie pop! You might be missing limbs!";
+                console.log(message);
+            }
+
+            if (lickRatio == 100) {
+                var message = "You have eaten 100% of your tootsie pop";
+                console.log(message);
+            }
+
+            if (lickRatio < 100) {
+                var message = "You have gone: " + lickRatio + "% of the way!";
+                console.log(message);
+            }
+
+
+            var outputText = document.getElementById("output");
+            outputText.innerHTML = message;
+        }
+
+
+
+        var getButton = document.getElementById("lButton");
+
+        getButton.addEventListener("click", centerOfPop);
+
+    </script>
+
+</body>
+
+</html>
