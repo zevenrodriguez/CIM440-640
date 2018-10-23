@@ -51,6 +51,9 @@
 
 ### Week 10 – Functions and Objects (Oct 22nd- 25th)
 
+* [interface Function](/classexamples/interfaceFunction/sketch.js)
+* [interface Object](/classexamples/interfaceObject/sketch.js)
+
 ### Week 11 – Working with Data and Libraries (Oct 29th-Nov 1st)
 
 ### Week 12 – Final Project Ideation workshop (Nov 5th - 12th)
