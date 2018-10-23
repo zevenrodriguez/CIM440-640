@@ -11,7 +11,9 @@ var counter = 0;
 
 var controls = {
                   "play" : [50,400,50,"green"],
-                  "stop" : [110,400,50,"red"]
+                  "stop" : [110,400,50,"red"],
+                  "fwd" : [160,400,50, "blue"],
+                  "back" : [210, 400, 50, "yellow"]
 
                 };
 
@@ -73,7 +75,7 @@ function draw(){
       fill(127,200);
       rect(controls[keys][0], controls[keys][1], controls[keys][2], controls[keys][2]);
 
-      state = keys;
+      //state = keys;
     }
   }
 
@@ -85,6 +87,19 @@ function mousePressed(){
     if(mouseX > controls[keys][0] && mouseX < controls[keys][0] + controls[keys][2] && mouseY > controls[keys][1] && mouseY < controls[keys][1] + controls[keys][2]){
 
       state = keys;
+      console.log(state);
+      if(state == "fwd"){
+        currentFrame++;
+        if(currentFrame >= frameArray.length){
+          currentFrame = 0;
+        }
+      }else if(state == "back"){
+        currentFrame--;
+        if(currentFrame < 0){
+          currentFrame = frameArray.length - 1;
+        }
+      }
+
 
     }
 
