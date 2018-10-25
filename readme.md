@@ -53,6 +53,7 @@
 
 * [interface Function](/classexamples/interfaceFunction/sketch.js)
 * [interface Object](/classexamples/interfaceObject/sketch.js)
+* [interface Object Class](/classexamples/interfaceObjectClass/sketch.js)
 
 ### Week 11 – Working with Data and Libraries (Oct 29th-Nov 1st)
 
