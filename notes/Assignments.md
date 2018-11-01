@@ -28,10 +28,6 @@ CIM640 - Think about ways you can interact with your piece. When you setup your 
 
 Using your character or piece of art add 2 methods of interaction, Use any of the interactive methods we used in class.
 
-## 4. Homework
-
-* Add another row to the guessing game and replace all of the images. You should end up with a total of 6 images
-
 ## Midterm
 
 Make a creative sketch. Make a interactive sketch with 5 points of interaction. For example, you can make an interactive world or application.
@@ -48,11 +44,14 @@ Make a creative sketch. Make a interactive sketch with 5 points of interaction. 
  * keyPressed
  * hitzones
 
- ## 5. Homework
-
- #### Due April 5th.
+ ## 4. Homework
 
 Go to the p5js libraries reference. https://p5js.org/libraries/ . Look through the list of libraries and choose one that you would like to explore. Make a creative sketch using your library. Below are a list of video tutorials on some p5js libraries.
+
+### Requirements
+
+* Make a creative sketch using an element from a library you would like to explore
+* Create a readme, documenting that element you are using and how your using it in your sketch
 
  Watch the working with [libraries video](https://www.youtube.com/watch?v=Pn1g1wjxl_0)
 
@@ -66,7 +65,12 @@ Go to the p5js libraries reference. https://p5js.org/libraries/ . Look through t
 
 ### Final project ideas
 
-Create a final folder and include an ideas.md file in it. Document 3 potential ideas for your final. Use text, images, and diagrams to explain your project. If you have an idea or concept, document 3 different experiences. Find 3 examples of similar projects or projects that influence your project.
+* Create a final folder
+  * Include an ideas.md
+  * Document 3 potential ideas for your final.
+    * Use text, images, and diagrams to explain your project.
+      * If you have an idea or concept, document 3 different experiences.
+  * Find and Link 3 examples of similar projects or projects that influence your project.
 
 When you come up with ideas, answer these questions:
 

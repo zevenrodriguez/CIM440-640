@@ -57,6 +57,11 @@
 
 ### Week 11 – Working with Data and Libraries (Oct 29th-Nov 1st)
 
+* [Interface Object with Sound and Video](/classexamples/ioSoundVideoClass/sketch.js)
+* [Bar Chart](/classexamples/barChart/sketch.js)
+* [Pie Chart](/classexamples/pieChart/sketch.js)
+* [Library Homework and Final Project Ideation](/notes/Assignments.md)
+
 ### Week 12 – Final Project Ideation workshop (Nov 5th - 12th)
 
 ### Week 13 – Final Project idea presentation (Nov 12th-15th)
