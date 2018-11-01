@@ -63,7 +63,7 @@ Go to the p5js libraries reference. https://p5js.org/libraries/ . Look through t
 
 [Rita.js](https://www.youtube.com/watch?v=Pn1g1wjxl_0&list=PLRqwX-V7Uu6aFcVjlDAkkGIixw70s7jpW)
 
-### Final project ideas
+# Final project ideas
 
 * Create a final folder
   * Include an ideas.md

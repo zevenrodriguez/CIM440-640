@@ -58,6 +58,7 @@
 ### Week 11 – Working with Data and Libraries (Oct 29th-Nov 1st)
 
 * [Interface Object with Sound and Video](/classexamples/ioSoundVideoClass/sketch.js)
+* [Intro to DOM](/classexamples/introToDOM/sketch.js)
 * [Bar Chart](/classexamples/barChart/sketch.js)
 * [Pie Chart](/classexamples/pieChart/sketch.js)
 * [Library Homework and Final Project Ideation](/notes/Assignments.md)
