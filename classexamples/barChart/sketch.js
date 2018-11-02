@@ -65,7 +65,7 @@ function barChart(data,base,bWidth, space) {
   var lastAngle = 0
   for (var i = 0; i < data.length; i++) {
     var gray = map(i, 0, data.length, 0, 255);
-    var maxData = Math.max(...revData) + 10;
+    var maxData = Math.max(...data) + 10;
     var curData = map(data[i], 0, maxData, baseLine, 0);
     console.log(curData);
     fill(gray);
