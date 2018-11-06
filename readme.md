@@ -63,7 +63,9 @@
 * [Pie Chart](/classexamples/pieChart/sketch.js)
 * [Library Homework and Final Project Ideation](/notes/Assignments.md)
 
-### Week 12 – Final Project Ideation workshop (Nov 5th - 12th)
+### Week 12 – Final Project Ideation workshop (Nov 5th - 8th)
+
+* [Idea Workshop Sheet](/files/IdeaWorkshopEdited.pdf)
 
 ### Week 13 – Final Project idea presentation (Nov 12th-15th)
 
