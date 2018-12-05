@@ -1,11 +1,8 @@
-var c;
-
 var printButton;
 
 function setup() {
   // put setup code here
-  c = createCanvas(400,400);
-  c.id("mycanvas");
+  createCanvas(400,400);
   printButton = createButton("Print");
   printButton.mousePressed(function(){
     // you need to hide all of the things you do not want to print before you tell it to print the window.
