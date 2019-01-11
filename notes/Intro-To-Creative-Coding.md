@@ -35,6 +35,8 @@ p5js is a javascript library based off Java/Processing. It was developed by Laur
 
 [Chicka](http://www.imagima.com/)
 
+[Artechhouse](https://www.miami.artechouse.com/)
+
 [Creative Coding Subreddit](https://www.reddit.com/r/creativecoding/)
 
 http://tofuness.github.io/eex/lorenz/

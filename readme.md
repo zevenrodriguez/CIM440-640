@@ -1,7 +1,7 @@
 
-# CIM 640-39 - Intro to Creative Coding
+# CIM 540-640-2R - Intro to Creative Coding
 
-#### Tu-Th 5:00 – 6:15PM
+#### Tu 2:00 – 4:30PM
 
 #### Fall Semester 2018
 
@@ -14,11 +14,11 @@
 
 ### [All notes will be posted on the here or below](/notes)
 
-### [Syllabus](CIM640-39-IntrotoCreativeCoding.pdf)
+### [Syllabus](CIM540-640-2R-IntrotoCreativeCoding.pdf)
 
 ## Calendar
 
-### Week 1 -  Introduction to Creative Coding and Github Aug 20th-23rd
+### Week 1 -  Introduction to Creative Coding and Getting Started p5js
 
 * [Intro to Creative Coding](/notes/Intro-To-Creative-Coding.md)
 * [Setting up your environment](/notes/Setting-Up-Your-Environment.md)
@@ -27,50 +27,72 @@
 
 * [The Impossible App](/notes/Assignments.md#1-homework---impossible-app)
 
-### Week 2 -Getting Started p5js, Basic Drawing Aug 27th-30th
+### Week 2 - Github and Basic Drawing
 
 * [Github](/notes/Github.md)
+* 2D Primatives
+* text()
 
-### [Week 3 - Adding Interaction, Conditionals, Mouse Position, User Input (Sept 3rd-6th)](/notes/Interaction.md)
+##### HW
 
-#### Sept 3rd Labor Day
+Create a character or piece of art using shapes.
+* Use 5 different variables to represent position, color (10 points)
 
-### Week 4 - [Interacting with the World (Sept 10th-13th)](/notes/Interaction.md)
+### [Week 3 - Adding Interaction: Mouse Position, Keyboard input, and Conditionals](/notes/Interaction.md)
 
-### Week 5 - Arrays, Loops, and Animation (Sept 17th- 20th)
+* mouseX and mouseY
+* mousePressed()
+* keyPressed()
+* if statement
 
-### Week 6 - More Arrays and Key/Value Pairs (Sept 24th-27nd)
+##### HW
 
-### Week 7 - Animation and Interface (Oct 1st-4th)
+Use 2 of the above Interaction types to dynamically change your character.
 
-### Week 8 -  [Midterm Project Workdays](https://github.com/zevenrodriguez/CIM540-640/wiki/Midterm) (Oct 8th-11th)
+### Week 4 - [Images, Buttons, and Conditionals Continued](/notes/Interaction.md)
 
-### Week 9 - [Midterm Project Presentation](https://github.com/zevenrodriguez/CIM540-640/wiki/Midterm) (Oct 16th)
+* Buttons
+* Images
+* if elseif else
 
-#### Oct 18-21st Fall Recess
+##### HW
 
-### Week 10 – Functions and Objects (Oct 22nd- 25th)
+Use an image array to create a 4 page storybook.
 
-* [interface Function](/classexamples/interfaceFunction/sketch.js)
-* [interface Object](/classexamples/interfaceObject/sketch.js)
-* [interface Object Class](/classexamples/interfaceObjectClass/sketch.js)
+### Week 5 - Arrays and Loops
 
-### Week 11 – Working with Data and Libraries (Oct 29th-Nov 1st)
+##### HW
 
-* [Interface Object with Sound and Video](/classexamples/ioSoundVideoClass/sketch.js)
-* [Intro to DOM](/classexamples/introToDOM/sketch.js)
-* [Bar Chart](/classexamples/barChart/sketch.js)
-* [Pie Chart](/classexamples/pieChart/sketch.js)
-* [Library Homework and Final Project Ideation](/notes/Assignments.md)
+* Generative art: Use shapes or images to create 2 pattern based compositions
 
-### Week 12 – Final Project Ideation workshop (Nov 5th - 8th)
+### Week 6 - Animation and Push/Pop (Sept 24th-27nd)
+
+* random()
+* push()
+* pop()
+
+### Week 7 - [Midterm Project Workdays]()
+
+### Week 8 - [Midterm Project Presentation]()
+
+### Week 9 - Spring Break
+
+### Week 10 – Functions and Objects
+
+### Week 11 – Working with Libraries
+
+* DOM
+* Sound
+* Video
+
+### Week 12 – Final Project Ideation workshop
 
 * [Idea Workshop Sheet](/files/IdeaWorkshopEdited.pdf)
 
-### Week 13 – Final Project idea presentation (Nov 12th-15th)
+### Week 13 – Final Project idea presentation
 
-#### Nov 17th - Nov 25th Thanksgiving Recess
+* 5 Slide presentation
 
-### Week 14 – Final Project Lab (Nov 26th – 29th)
+### Week 14 – Final Project Lab
 
-### Final - Dec 6th 5:00-7:30PM
+### Week 15 - Final Project Critique

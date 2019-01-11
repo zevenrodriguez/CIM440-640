@@ -38,6 +38,7 @@ When working with p5js the reference is your best friend. be one with the refere
 function setup() {
 
 }
+
 The setup function runs once at the beginning of your program.
 
 
@@ -59,6 +60,8 @@ Declaring a variable means saying:
 
 var num = 100;
 
+### Variables and Scope
+
 When declaring a variable location of where the variable is declared is important. If a variable is declared with in a function, that variables scope is only available in that function. Meaning you can only use that variable in that function. For example, this code wont work:
 
 ```
@@ -66,12 +69,15 @@ function setup() {
   var test = 100;
 
   console.log(num);
+  // The reference value for num is not available in the setup() block
 }
 
 function draw() {
     var num = 200;
 
     console.log(test);
+    // The reference value for test is not available in the draw() block
+
 
 }
 ```
@@ -82,6 +88,7 @@ The variable num is only available inside the draw function, so setup has no ide
 The variable test is only available inside the setup function, so the draw has no idea when you want to print test, what variable you are referring to.
 When we want to declare variables that are available through out the program we declare them at the top of our program code. This is making the variable globally available to all functions. For example:
 
+```
 var num = 200;
 
 function setup() {
@@ -95,7 +102,7 @@ function draw() {
     console.log(num);
 
 }
-
+```
 
 In this example, num will be printed once in the setup and infinitely in the draw loop.
 
@@ -104,9 +111,10 @@ In this example, num will be printed once in the setup and infinitely in the dra
 To find out what your variables are doing throughout your code use:
 
 console.log(VARIABLE);
+
 Remember that if you run console.log in the draw loop, it will keep printing your variable infinitely.
 
-## Functions
+## Basic Drawing
 
 #### createCanvas
 

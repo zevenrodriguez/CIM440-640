@@ -1,4 +1,4 @@
-## 1. Homework - Impossible App
+<!-- ## 1. Homework - Impossible App
 
 * Create the impossible application:
  * Create an impossible application, this application can be useful or be self servient. The most important is to think about how a user is going to operate your application. Think about each step the user is going to take. Have fun with this! Feel free to illustrate your application on paper.
@@ -21,8 +21,6 @@
 Create a character or piece of art using shapes.
 
 Use 5 variables to represent position, color (10 points)
-
-CIM640 - Think about ways you can interact with your piece. When you setup your variables think about what can interact with your character. Think outside the box, go beyond the screen. Talk about sensors, data, or things that will affect your piece.
 
 ## 3. Homework
 
@@ -78,4 +76,4 @@ When you come up with ideas, answer these questions:
 * What are your inputs?
 * What are your outputs?
 * Who is the target audience for your project?
-* Where will your project be displayed?
+* Where will your project be displayed? -->
