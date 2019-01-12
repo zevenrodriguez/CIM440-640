@@ -1,4 +1,4 @@
-<!-- ## 1. Homework - Impossible App
+## 1. Homework - Impossible App
 
 * Create the impossible application:
  * Create an impossible application, this application can be useful or be self servient. The most important is to think about how a user is going to operate your application. Think about each step the user is going to take. Have fun with this! Feel free to illustrate your application on paper.
@@ -20,11 +20,38 @@
 
 Create a character or piece of art using shapes.
 
-Use 5 variables to represent position, color (10 points)
+* Use 5 different variables to represent position, color (10 points)
 
 ## 3. Homework
 
 Using your character or piece of art add 2 methods of interaction, Use any of the interactive methods we used in class.
+
+
+* mouseX and mouseY
+* mousePressed()
+* keyPressed()
+* if statement
+
+## 4. Homework
+
+Use an image array to create a 4 page storybook.
+
+## 5. Homework
+
+Generative art: Use shapes or images to create 2 pattern based compositions
+
+## 6. Homework
+
+Write a one paragraph proposal explaining your midterm project. Include a title, what assets, and interactions you want to include i.e.
+
+* Images
+ * Ball
+ * A bunch of puppies (background image)
+
+* Interaction
+  * A rain animation
+  * When the user clicks on a box, it shows my character.
+  * When the user hovers over an area, the background color changes.
 
 ## Midterm
 
@@ -32,17 +59,20 @@ Make a creative sketch. Make a interactive sketch with 5 points of interaction. 
 
 #### Requirements
 
-* Create a readme with a brief title and explanation
+* Create a readme with a brief title and explanation (HW 6)
 * In your sketch, include a title and instruction (3 Points)
-* background image (2 Points)
+* background image or design (2 Points)
 * 5 points of Interaction (15 Points - 3 Points each)
- * buttons
- * mouseX mouseY
- * mousePressed
- * keyPressed
- * hitzones
+  * Note: You do not have to use all interactions below, but you must have 5 interactions points
+  * buttons
+  * mouseX mouseY
+  * mousePressed
+  * keyPressed
+  * hitzones
 
- ## 4. Homework
+<!--
+
+## 4. Homework
 
 Go to the p5js libraries reference. https://p5js.org/libraries/ . Look through the list of libraries and choose one that you would like to explore. Make a creative sketch using your library. Below are a list of video tutorials on some p5js libraries.
 

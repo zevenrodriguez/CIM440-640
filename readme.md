@@ -12,7 +12,7 @@
   * Thursday 10AM-12PM
   * To sign up for office hours please visit https://calendly.com/zevenrodriguez
 
-### [All notes will be posted on the here or below](/notes)
+### [Notes](/notes)
 
 ### [Syllabus](CIM540-640-2R-IntrotoCreativeCoding.pdf)
 
@@ -47,7 +47,7 @@ Create a character or piece of art using shapes.
 
 ##### HW
 
-Use 2 of the above Interaction types to dynamically change your character.
+Using your character or piece of art add 2 methods of interaction, Use any of the interactive methods we used in class
 
 ### Week 4 - [Images, Buttons, and Conditionals Continued](/notes/Interaction.md)
 
@@ -70,6 +70,38 @@ Use an image array to create a 4 page storybook.
 * random()
 * push()
 * pop()
+
+##### HW
+
+Write a one paragraph proposal explaining your midterm project. Include what assets and interactions you want to include i.e.
+
+* Images
+ * Ball
+ * A bunch of puppies (background image)
+
+* Interaction
+  * A rain animation
+  * When the user clicks on a box, it shows my character.
+  * When the user hovers over an area, the background color changes.
+
+# Midterm
+
+Make a creative sketch. Make a interactive sketch with 5 points of interaction. For example, you can make an interactive world or application.
+
+#### Requirements
+
+* Create a readme with a brief title and explanation (HW 6)
+* In your sketch, include a title and instruction (3 Points)
+* background image or design (2 Points)
+* 5 points of Interaction (15 Points - 3 Points each)
+  * Note: You do not have to use all interactions below, but you must have 5 interactions points
+  * buttons
+  * mouseX mouseY
+  * mousePressed
+  * keyPressed
+  * hitzones
+
+
 
 ### Week 7 - [Midterm Project Workdays]()
 
