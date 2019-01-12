@@ -5,7 +5,7 @@ Git is a free and open source version control system/software. Once you initiali
 Their are severial ways you can use git:
 
 * command line
-* gui interface / Github Desktop for Mac/PC
+* [Github Desktop for Mac/PC](https://desktop.github.com/)
  * Note: When installing Github Desktop make sure you install command line tools.
  * Under the programs preferences you will need to add your github credentials.
 * [Atom Text Editor has git/github support built in](https://atom.io/)
@@ -16,7 +16,9 @@ Github is a service that hosts git repositories remotely. It is like a Dropbox o
 
 ### CREATING A REPO
 
-#### [Creating a repository with Github Desktop](https://vimeo.com/251362770)
+#### [Creating a repository with Github Desktop Slides](../files/Github.pdf)
+
+#### [Creating a repository with Github Desktop Video](https://vimeo.com/251362770)
 
 Also see https://help.github.com/articles/create-a-repo/
 
