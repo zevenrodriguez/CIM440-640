@@ -23,7 +23,7 @@
 * [Intro to Creative Coding](/notes/Intro-To-Creative-Coding.md)
 * [Setting up your environment](/notes/Setting-Up-Your-Environment.md)
 
-##### HW
+#### HW
 
 * [The Impossible App](/notes/Assignments.md#1-homework---impossible-app)
 
@@ -33,7 +33,7 @@
 * 2D Primatives
 * text()
 
-##### HW
+#### HW
 
 Create a character or piece of art using shapes.
 * Use 5 different variables to represent position, color (10 points)
@@ -45,7 +45,7 @@ Create a character or piece of art using shapes.
 * keyPressed()
 * if statement
 
-##### HW
+#### HW
 
 Using your character or piece of art add 2 methods of interaction, Use any of the interactive methods we used in class
 
@@ -55,13 +55,13 @@ Using your character or piece of art add 2 methods of interaction, Use any of th
 * Images
 * if elseif else
 
-##### HW
+#### HW
 
 Use an image array to create a 4 page storybook.
 
 ### Week 5 - Arrays and Loops
 
-##### HW
+#### HW
 
 * Generative art: Use shapes or images to create 2 pattern based compositions
 
@@ -71,15 +71,14 @@ Use an image array to create a 4 page storybook.
 * push()
 * pop()
 
-##### HW
+#### HW
 
 Write a one paragraph proposal explaining your midterm project. Include what assets and interactions you want to include i.e.
 
-* Images
- * Ball
- * A bunch of puppies (background image)
-
-* Interaction
+* ##### Images
+  * Ball
+  * A bunch of puppies (background image)
+* ##### Interaction
   * A rain animation
   * When the user clicks on a box, it shows my character.
   * When the user hovers over an area, the background color changes.
