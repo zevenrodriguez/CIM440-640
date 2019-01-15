@@ -21,6 +21,7 @@
 ### Week 1 -  Introduction to Creative Coding and Getting Started p5js
 
 * [Intro to Creative Coding](/notes/Intro-To-Creative-Coding.md)
+* [Inspiration](/notes/Inspiration.md)
 * [Setting up your environment](/notes/Setting-Up-Your-Environment.md)
 
 #### HW

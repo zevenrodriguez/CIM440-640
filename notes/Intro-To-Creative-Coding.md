@@ -26,23 +26,3 @@ A collection of code instructions that facilitate the implementation of specific
 ### WHAT IS P5JS?
 
 p5js is a javascript library based off Java/Processing. It was developed by Lauren McCarthy. Java/Processing was developed to easily teach and program graphics. p5js was made possible because of the introduction of the html5 Canvas tag and the popularity of Processing.
-
-### INSPIRATION
-
-[Zeven Rodriguez](http://www.howlinwolves.com)
-
-[Rune Madsen](https://runemadsen.com/)
-
-[Chicka](http://www.imagima.com/)
-
-[Artechhouse](https://www.miami.artechouse.com/)
-
-[Creative Coding Subreddit](https://www.reddit.com/r/creativecoding/)
-
-http://tofuness.github.io/eex/lorenz/
-
-http://research.google.com/bigpicture/music/
-
-http://gagemotion.com/
-
-http://googlecreativelab.github.io/anypixel/
