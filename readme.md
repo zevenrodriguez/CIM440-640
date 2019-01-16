@@ -66,7 +66,7 @@ Use an image array to create a 4 page storybook.
 
 * Generative art: Use shapes or images to create 2 pattern based compositions
 
-### Week 6 - Animation and Push/Pop (Sept 24th-27nd)
+### Week 6 - Animation and Push/Pop
 
 * random()
 * push()
