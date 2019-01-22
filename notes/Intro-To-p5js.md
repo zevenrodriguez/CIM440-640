@@ -197,7 +197,7 @@ background(color(0, 0, 255));
 
 ![Screen Orientation](../files/orientation.png)
 
-All drawing starts on the upper left hand corner. 
+All drawing starts on the upper left hand corner.
 
 
 
@@ -292,6 +292,19 @@ stroke(255, 204, 0);
 
 Sets the thickness of the shapes border in pixels
 
+
+#### [text()](https://p5js.org/reference/#/p5/text)
+
+Sets the location and display of output text
+
+```
+textSize(32);
+text('word', 10, 30);
+
+```
+#### [textSize()](https://p5js.org/reference/#/p5/textSize)
+
+Sets the size of output text
 
 #### Color
 
