@@ -6,6 +6,7 @@
 * [Setting Up Your Environment](Setting-Up-Your-Environment.md)
 * [Github](Github.md)
 * [Interaction](Interaction.md)
+* [Arrays and Loops](Arrays-and-Loops.md)
 * [Functions and Objects](Functions-and-Objects.md)
 
 # Course Deliverables
@@ -18,3 +19,4 @@
 * [Markdown](Markdown.md)
 * [Copywrite](Copywrite.md)
 * [p5js Reference](https://p5js.org/reference/)
+* [Dan Shiffman Learning p5js](https://vimeo.com/channels/learningp5js/)

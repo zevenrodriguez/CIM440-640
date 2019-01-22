@@ -16,12 +16,13 @@
 
 ### [Syllabus](CIM540-640-2R-IntrotoCreativeCoding.pdf)
 
+### [Assignments](https://github.com/zevenrodriguez/CIM540-640/blob/master/notes/Assignments.md)
+
 ## Calendar
 
 ### Week 1 -  Introduction to Creative Coding and Getting Started p5js
 
 * [Intro to Creative Coding](/notes/Intro-To-Creative-Coding.md)
-* [Inspiration](/notes/Inspiration.md)
 * [Setting up your environment](/notes/Setting-Up-Your-Environment.md)
 
 #### HW
@@ -30,9 +31,12 @@
 
 ### Week 2 - Github and Basic Drawing
 
+* [Intro to p5js](https://github.com/zevenrodriguez/CIM540-640/blob/master/notes/Intro-To-p5js.md)
+  * 2D Primatives
+  * text()
+  * Variables
 * [Github](/notes/Github.md)
-* 2D Primatives
-* text()
+
 
 #### HW
 
@@ -66,7 +70,7 @@ Use an image array to create a 4 page storybook.
 
 * Generative art: Use shapes or images to create 2 pattern based compositions
 
-### Week 6 - Animation and Push/Pop
+### Week 6 - Animation and Push/Pop (Sept 24th-27nd)
 
 * random()
 * push()

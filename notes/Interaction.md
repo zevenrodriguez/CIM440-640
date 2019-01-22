@@ -8,10 +8,6 @@ line(mouseX, 0, mouseX, 100);
 line(0, mouseY, 100, mouseY);
 ```
 
-# width and height
-
-width and height are built in variables that give you access to your canvas width and height
-
 # Mouse Button input
 
 ```

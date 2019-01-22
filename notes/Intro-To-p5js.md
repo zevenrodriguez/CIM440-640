@@ -4,6 +4,8 @@ COMMENTS
 
 ```
 //This is a single line comment
+
+
 /*
 This
 is
@@ -34,10 +36,11 @@ When working with p5js the reference is your best friend. be one with the refere
 ## STRUCTURE
 
 ### setup
-
+```
 function setup() {
 
 }
+```
 
 The setup function runs once at the beginning of your program.
 
@@ -47,10 +50,28 @@ The setup function runs once at the beginning of your program.
 
 The draw function is an infinite loop that runs when a user visits your page. Code that is placed in the draw will run sequentially.
 
+```
 function draw() {
 
 }
+```
 
+### Getting Started
+
+```
+// Global Variables
+
+function setup(){
+  //Runs once
+
+}
+
+function draw(){
+  //Runs after setup in an infinite loop
+
+}
+
+```
 
 ### Using variables and scope
 
@@ -58,7 +79,25 @@ Variables can be declared throughout your program.
 
 Declaring a variable means saying:
 
+```
 var num = 100;
+var a = 1;
+var num1 = 3;
+var b = 'b'; //Character
+var word1 = "word"; // String
+var trueFalse = true; // Boolean
+var sentences = "I'm a sentence"; // String
+
+
+```
+
+### Printing/Debugging
+
+To find out what your variables are doing throughout your code use:
+
+console.log(VARIABLE);
+
+Remember that if you run console.log in the draw loop, it will keep printing your variable infinitely.
 
 ### Variables and Scope
 
@@ -106,17 +145,9 @@ function draw() {
 
 In this example, num will be printed once in the setup and infinitely in the draw loop.
 
-### Printing/Debugging
-
-To find out what your variables are doing throughout your code use:
-
-console.log(VARIABLE);
-
-Remember that if you run console.log in the draw loop, it will keep printing your variable infinitely.
-
 ## Basic Drawing
 
-#### createCanvas
+#### [createCanvas](https://p5js.org/reference/#/p5/createCanvas)
 
 createCanvas(w,h,[renderer])
 
@@ -124,7 +155,7 @@ createCanvas function allows to set a size for your canvas element. It takes in 
 
 p5js uses 2 rendering types: P2D vs WEBGL. P2D is generally used for 2d animation. WEBGL is used for 3D animation.
 
-#### background()
+#### [background()](https://p5js.org/reference/#/p5/background)
 
 Background function allows you to add a color to your canvas. The background can be set in the setup and the draw. In the setup, the background color will set once. If placed in the draw loop, the background will reset your canvas every draw cycle.
 
@@ -162,22 +193,104 @@ background('rgba(100%,0%,100%,0.5)');
 background(color(0, 0, 255));
 ```
 
-2D Primitives
+#### Drawing Orientation
 
-arc()
+![Screen Orientation](../files/orientation.png)
 
-ellipse()
+All drawing starts on the upper left hand corner. 
 
-line()
 
-point()
 
-quad()
+#### 2D Primitives
 
-rect()
+[ellipse()](https://p5js.org/reference/#/p5/ellipse)
 
-triangle()
+[rect()](https://p5js.org/reference/#/p5/rect)
 
+[line()](https://p5js.org/reference/#/p5/line)
+
+[point()](https://p5js.org/reference/#/p5/point)
+
+[square()](https://p5js.org/reference/#/p5/square)
+
+[quad()](https://p5js.org/reference/#/p5/quad)
+
+[triangle()](https://p5js.org/reference/#/p5/triangle)
+
+[arc()](https://p5js.org/reference/#/p5/arc)
+
+
+
+#### [fill()](https://p5js.org/reference/#/p5/fill)
+
+Is used the set the inner color of shapes. When fill is called all shapes after the fill will share the color.
+
+```
+
+function draw(){
+
+  fill("blue");
+  ellipse(200,200,50,50); // blue ellipse
+  ellipse(300,200,50,50); // blue ellipse
+  fill("red");
+  ellipse(400,200,50,50); // red ellipse
+  fill("green");
+  ellipse(500,200,50,50); // green ellipse
+
+}
+
+
+```
+
+
+```
+// Grayscale integer value
+fill(51);
+
+// R, G & B integer values
+fill(255, 204, 0);
+
+// H, S & B integer values
+colorMode(HSB);
+fill(255, 204, 100);
+
+// Named SVG/CSS color string
+fill('red');
+
+// six-digit hexadecimal RGB notation
+fill('#222222');
+
+// integer RGB notation
+fill('rgb(0,255,0)');
+
+// integer RGBA notation
+fill('rgba(0,255,0, 0.25)');
+
+// percentage RGB notation
+fill('rgb(100%,0%,10%)');
+
+// percentage RGBA notation
+fill('rgba(100%,0%,100%,0.5)');
+
+// p5 Color object
+fill(color(0, 0, 255));
+```
+
+#### [stroke()](https://p5js.org/reference/#/p5/stroke)
+
+Sets the color outer border of shapes.
+
+```
+// Grayscale integer value
+stroke(51);
+
+// R, G & B integer values
+stroke(255, 204, 0);
+```
+
+#### [strokeWeight()](https://p5js.org/reference/#/p5/strokeWeight)
+
+Sets the thickness of the shapes border in pixels
 
 
 #### Color
@@ -186,63 +299,7 @@ You can set color as a variable.
 
 var c = color(255, 204, 0);
 
-# Arrays
 
-An array is a type of variable that can be used to group values. Arrays in javascript can include different types of values. Array values can include numbers, letters, words, boolean(true/false) etc.
+#### width and height
 
-```
-
-var numbers = [1,2,3];
-
-var letters = ["a","b","c"];
-
-// To access array values you need to use indices start from 0
-
-console.log(letters[0]); // Will print out "a"
-
-
-```
-
-
-#### mouseX and mouseY
-
-mouseX and mouseY are built in variables to p5js that allow you to know the current position of the mouse.
-
-line(mouseX, 0, mouseX, 100);
-line(0, mouseY, 100, mouseY);
-width and height
-
-width and height are built in variables that give you access to your canvas width and height
-
-#### random
-
-Choose random number from max and min, or from an array of numbers.
-
-  var r = random(50);
-
-
-#### map
-
-Lets you constrain the limits of a variable
-
-map(value,start1,stop1,start2,stop2)
-
-```
-function setup() {
-      noStroke();
-    }
-
-    function draw() {
-      background(204);
-      var x1 = map(mouseX, 0, width, 25, 75);
-      ellipse(x1, 25, 25, 25);
-      var x2 = map(mouseX, 0, width, 0, 100);
-      ellipse(x2, 75, 25, 25);
-    }
-```
-
-
-
-# Resources
-
-https://vimeo.com/channels/learningp5js/
+width and height are built in variables that give you access to the dimensions of the canvas
