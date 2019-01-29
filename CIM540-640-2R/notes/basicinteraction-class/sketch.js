@@ -39,6 +39,40 @@ function draw() {
     arc(eyePosX,eyePosY + 100,100,100,180,0);
   }
 
+  if(mouseY < height/2){
+    console.log("About line");
+    angleMode(DEGREES);
+    arc(eyePosX,eyePosY + 100,100,100,0,180);
+
+  }
+
+}
+
+// end of draw loop
+
+function mousePressed(){
+  backgroundColor = "blue";
+}
+
+function mouseReleased(){
+  backgroundColor = "white";
+}
+
+function keyPressed(){
+  console.log("letter: " + key + " keycode: " + keyCode);
+  if(key == 'a'){
+    console.log("the letter is a");
+  }else if(key == 'b'){
+    backgroundColor = "blue";
+  }else if(key == "r"){
+    backgroundColor = "red";
+  }else{
+    backgroundColor = "green";
+  }
+
+  if(keyCode == 65){
+    console.log("the keycode is a");
+  }
 }
 
 
