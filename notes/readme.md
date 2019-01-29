@@ -20,3 +20,4 @@
 * [Copywrite](Copywrite.md)
 * [p5js Reference](https://p5js.org/reference/)
 * [Dan Shiffman Learning p5js](https://vimeo.com/channels/learningp5js/)
+* [Dan Shiffman Coding Train](https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
