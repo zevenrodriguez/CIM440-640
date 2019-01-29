@@ -57,7 +57,7 @@ Create a character or piece of art using shapes.
 * [Github](/notes/Github.md)
 
 #### Class Examples
-* [Basic interaction](CIM540-640-2R/notes/basicinteraction)
+* [Basic interaction](CIM540-640-2R/notes/basicInteraction)
 
 #### HW
 
