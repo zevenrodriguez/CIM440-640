@@ -37,6 +37,10 @@
   * Variables
 * [Github](/notes/Github.md)
 
+#### Class Examples
+* [character](CIM540-640-2R/notes/character)
+* [character class](CIM540-640-2R/notes/character-class)
+* [character class with variables](CIM540-640-2R/notes/character-var-class)
 
 #### HW
 
@@ -49,6 +53,11 @@ Create a character or piece of art using shapes.
 * mousePressed()
 * keyPressed()
 * if statement
+* text()
+* [Github](/notes/Github.md)
+
+#### Class Examples
+* [Basic interaction](CIM540-640-2R/notes/basicinteraction)
 
 #### HW
 
