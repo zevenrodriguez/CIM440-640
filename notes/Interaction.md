@@ -101,7 +101,7 @@ function keyPressed(){
 
 ```
 var button;
-var val = 0;
+var val = "";
 
 function setup() {
   createCanvas(100, 100);
@@ -112,8 +112,26 @@ function setup() {
 }
 
 function changeBG() {
-  val = random(255);
+  val = "blue";
 }
+```
+###### OR
+
+```
+var button;
+var val = "green";
+
+function setup() {
+  createCanvas(100, 100);
+  background(val);
+  button = createButton('click me');
+  button.position(19, 19);
+  button.mousePressed(function(){
+    val = "green";
+    });
+}
+
+
 ```
 
 # [select](https://p5js.org/reference/#/p5/createSelect)
