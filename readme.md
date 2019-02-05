@@ -68,6 +68,10 @@ Using your character or piece of art add 2 methods of interaction, Use any of th
 * Buttons
 * Images
 * if elseif else
+* [Week4 Start Files](CIM540-640-2R/notes/week4Start.zip)
+* [Week4 Start Files](CIM540-640-2R/notes/basicImageandButtons)
+* [Week4 Start Files](CIM540-640-2R/notes/basicImageButtonsArray)
+* [Week4 Start Files](CIM540-640-2R/notes/coloringBookHitzones)
 
 #### HW
 
