@@ -34,7 +34,7 @@ Using your character or piece of art add 2 methods of interaction, Use any of th
 
 ## 4. Homework
 
-Use an image array to create a 4 page storybook.
+Use an image array to create a 4 page storybook or a Drawing Application. Must use 4 buttons or hit-zones to interact with your application.
 
 ## 5. Homework
 
