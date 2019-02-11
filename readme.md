@@ -69,9 +69,9 @@ Using your character or piece of art add 2 methods of interaction, Use any of th
 * Images
 * if elseif else
 * [Week4 Start Files](CIM540-640-2R/notes/week4Start.zip)
-* [Week4 Start Files](CIM540-640-2R/notes/basicImageandButtons)
-* [Week4 Start Files](CIM540-640-2R/notes/basicImageButtonsArray)
-* [Week4 Start Files](CIM540-640-2R/notes/coloringBookHitzones)
+* [basicImageandButtons](CIM540-640-2R/notes/basicImageandButtons)
+* [basicImageButtonsArray](CIM540-640-2R/notes/basicImageButtonsArray)
+* [coloringBookHitzones](CIM540-640-2R/notes/coloringBookHitzones)
 
 #### HW
 
@@ -83,11 +83,12 @@ Use an image array to create a 4 page storybook or a Drawing Application. Must u
 
 * Generative art: Use shapes or images to create 2 pattern based compositions
 
-### Week 6 - Animation and Push/Pop (Sept 24th-27nd)
+### Week 6 - Animation and Push/Pop
 
 * random()
 * push()
 * pop()
+* millis()
 
 #### HW
 
