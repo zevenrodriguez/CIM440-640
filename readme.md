@@ -75,7 +75,7 @@ Using your character or piece of art add 2 methods of interaction, Use any of th
 
 #### HW
 
-Use an image array to create a 4 page storybook or a Drawing Application. Must use 4 buttons or hit-zones to interact with your application.
+Use 4 images to create a 4 page storybook or add 4 buttons to the coloring book example. Must use 4 buttons or hit-zones to interact with your application.
 
 ### Week 5 - [Arrays and Loops](/notes/Arrays-and-Loops.md)
 
