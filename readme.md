@@ -83,8 +83,10 @@ Use an image array to create a 4 page storybook or a Drawing Application. Must u
 
 Use buttons or hitzones to show and hide a shape.
 
-* [StoryBook](CIM540-640-2R/notes/storybook/sketch.js)
+* [StoryBook Start Files](CIM540-640-2R/notes/storybook.zip)
+* [StoryBook](CIM540-640-2R/notes/storybook/sketchFinished.js)
 * [StoryBook with Arrays](CIM540-640-2R/notes/storybook/sketchArray.js)
+
 
 
 ### Week 6 - Animation and Push/Pop
