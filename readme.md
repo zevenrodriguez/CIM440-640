@@ -77,11 +77,15 @@ Using your character or piece of art add 2 methods of interaction, Use any of th
 
 Use an image array to create a 4 page storybook or a Drawing Application. Must use 4 buttons or hit-zones to interact with your application.
 
-### Week 5 - Arrays and Loops
+### Week 5 - [Arrays and Loops](/notes/Arrays-and-Loops.md)
 
-#### HW
+#### In Class Challenge - Show and Hide a shape
 
-* Generative art: Use shapes or images to create 2 pattern based compositions
+Use buttons or hitzones to show and hide a shape.
+
+* [StoryBook](CIM540-640-2R/notes/storybook/sketch.js)
+* [StoryBook with Arrays](CIM540-640-2R/notes/storybook/sketchArray.js)
+
 
 ### Week 6 - Animation and Push/Pop
 
@@ -91,6 +95,8 @@ Use an image array to create a 4 page storybook or a Drawing Application. Must u
 * millis()
 
 #### HW
+
+* Generative art: Use shapes or images to create 2 pattern based compositions
 
 Write a one paragraph proposal explaining your midterm project. Include what assets and interactions you want to include i.e.
 
