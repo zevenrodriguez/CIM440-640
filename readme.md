@@ -121,7 +121,11 @@ Make a creative sketch. Make a interactive sketch with 5 points of interaction. 
 * Create a readme with a brief title and explanation (HW 6)
 * In your sketch, include a title and instruction (3 Points)
 * background image or design (2 Points)
-* 5 points of Interaction (15 Points - 3 Points each)
+* Use one of the following (3 Points)
+  * Arrays
+  * For..Loops
+  * millis
+* 4 points of Interaction (12 Points - 3 Points each)
   * Note: You do not have to use all interactions below, but you must have 5 interactions points
   * buttons
   * mouseX mouseY
