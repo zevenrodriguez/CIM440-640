@@ -100,12 +100,14 @@ Use buttons or hitzones to show and hide a shape.
 #### Class Examples
 
 * [Trivia](CIM540-640-2R/notes/trivia/sketch.js)
+* [Trivia with Millis](CIM540-640-2R/notes/triviaMillis/sketch.js)
 * [Poll](CIM540-640-2R/notes/pollObject/sketch.js)
 * [Seasons](CIM540-640-2R/notes/seasons/sketch.js)
 
 #### HW
 
-* Generative art: Use shapes or images to create 2 pattern based compositions
+* Layout/Create a sketch for your Midterm
+  * Being laying out your inputs, outputs, and assets
 
 Write a one paragraph proposal explaining your midterm project. Include what assets and interactions you want to include i.e.
 
@@ -119,7 +121,7 @@ Write a one paragraph proposal explaining your midterm project. Include what ass
 
 # Midterm
 
-Make a creative sketch. Make a interactive sketch with 5 points of interaction. For example, you can make an interactive world or application.
+Make a creative sketch. Make a interactive sketch with 4 points of interaction. For example, you can make an interactive world or application.
 
 #### Requirements
 
@@ -137,8 +139,6 @@ Make a creative sketch. Make a interactive sketch with 5 points of interaction. 
   * mousePressed
   * keyPressed
   * hitzones
-
-
 
 ### Week 7 - [Midterm Project Workdays]()
 
