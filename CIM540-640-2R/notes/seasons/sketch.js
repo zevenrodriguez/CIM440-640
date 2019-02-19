@@ -9,14 +9,14 @@ var sunSize = 300;
 var leafLocationX = [];
 var leafLocationY = [];
 var leafImage;
-var leafAmount = 10;
+var leafAmount = 100;
 
 var snowLocationX = [];
 var snowLocationY = [];
 var snowAmount = 100;
 
 function preload() {
-  leafImage = loadImage("assets/leaf.png");
+  leafImage = loadImage("https://openclipart.org/image/300px/svg_to_png/257622/1470680735.png");
 }
 
 function setup() {
@@ -85,7 +85,7 @@ function draw() {
 
       if(leafLocationY[i] < height - 20){
         leafLocationY[i]++;
-        leafLocationX[i] = leafLocationX[i] + sin(radians(i));
+        leafLocationX[i] = leafLocationX[i] + sin(radians(frameCount));
       }
 
     }

@@ -93,10 +93,15 @@ Use buttons or hitzones to show and hide a shape.
 
 ### Week 6 - Animation and Push/Pop
 
-* random()
-* push()
-* pop()
-* millis()
+* [random()](https://p5js.org/reference/#/p5/random)
+* [push() pop()](https://p5js.org/reference/#/p5/push)
+* [Select list](https://p5js.org/reference/#/p5/createSelect)
+
+#### Class Examples
+
+* [Trivia](CIM540-640-2R/notes/trivia/sketch.js)
+* [Poll](CIM540-640-2R/notes/pollObject/sketch.js)
+* [Seasons](CIM540-640-2R/notes/seasons/sketch.js)
 
 #### HW
 
