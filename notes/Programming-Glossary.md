@@ -1,0 +1,61 @@
+
+# Hit Zones
+
+## Circular Hit Zone - Using dist()
+
+The dist function uses 2 points and compares the distance between 2 points. It compares the first set of points x1, y1 and x2, y2. Once you have the distance, you need to use an if statement to set a threshold of when you want an action to happen.
+
+![Circular Hit Zone](circularHitzone.gif)
+```
+background(255);
+var distance = dist(mouseX, mouseY, width/2, height/2);
+ellipse(width/2, height/2, 20, 20);
+line(width/2, height/2, mouseX, mouseY);
+if(distance < 20){
+  fill("red");
+}else{
+  fill("white");
+}
+```
+
+## Rectangular Hit Zone - Using if statements
+![Rectangular Hit Zone](images/rectangularHitzone.gif)
+
+When you want to program your own "button". You need to understand where your mouse is in relation to your "button". In this example we created a small rectangle to represent your button. We need to use an if statement to check if your mouse is located with in the 4 corners of your "button" area.
+
+```
+
+background(255);
+rect(20, 20, 20, 20);
+if(mouseX > 20 && mouseX < 40 && mouseY > 20 && mouseY < 40){
+  fill("red");
+}else{
+  fill("white");
+}
+```
+
+# For Loop
+
+```
+for(var i = 0; i < 10; i++){
+  console.log(i); // prints 0 - 9
+}
+```
+
+* var i = 0; (Initializor)
+  * Initiates the beginning of the loop.
+* i < 10; (Condition)
+  * Sets the rule for when the loop should stop.
+* i++ (Iterator)
+  * Sets the rule for counting.
+
+# Random
+
+![random][images/random.gif]
+
+  Generates a number from start parameter to finish parameter. The upper limit of your random number is not included in the range.
+
+  ```
+    // x position 0 - (width-1), y position 0 - (height - 1)
+    ellipse(random(width), random(height), 10,10);
+  ```
