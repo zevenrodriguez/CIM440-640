@@ -51,7 +51,7 @@ for(var i = 0; i < 10; i++){
 
 # Random
 
-![random][images/random.gif]
+![random](images/random.gif)
 
   Generates a number from start parameter to finish parameter. The upper limit of your random number is not included in the range.
 
