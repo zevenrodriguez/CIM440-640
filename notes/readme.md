@@ -8,6 +8,7 @@
 * [Interaction](Interaction.md)
 * [Arrays and Loops](Arrays-and-Loops.md)
 * [Functions and Objects](Functions-and-Objects.md)
+* [Programming Glossary](Programming-Glossary.md)
 
 # Course Deliverables
 * [Assignments](Assignments.md)
