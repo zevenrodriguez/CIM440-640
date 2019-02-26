@@ -5,7 +5,7 @@
 
 The dist function uses 2 points and compares the distance between 2 points. It compares the first set of points x1, y1 and x2, y2. Once you have the distance, you need to use an if statement to set a threshold of when you want an action to happen.
 
-![Circular Hit Zone](circularHitzone.gif)
+![Circular Hit Zone](images/circularHitzone.gif)
 ```
 background(255);
 var distance = dist(mouseX, mouseY, width/2, height/2);
@@ -37,8 +37,11 @@ if(mouseX > 20 && mouseX < 40 && mouseY > 20 && mouseY < 40){
 # For Loop
 
 ```
+background(255);
 for(var i = 0; i < 10; i++){
   console.log(i); // prints 0 - 9
+  text(i, width/2, height/2);
+
 }
 ```
 
@@ -58,4 +61,35 @@ for(var i = 0; i < 10; i++){
   ```
     // x position 0 - (width-1), y position 0 - (height - 1)
     ellipse(random(width), random(height), 10,10);
+  ```
+
+  # millis() - Timing
+
+  Allows your program to count how many milliseconds have passed since your program started running. In this example, we set an interval of 1000 milliseconds (1 second). The if statement checks to see if the difference between millis() and prevMillis is greater or equal to the interval. Once the difference is greater, prevMillis is set to millis() allowing the timing to reset.
+
+| Millis  | prevMillis  | Interval  |  True/False |
+|---|---|---|---|
+|  0 |  0 | 1000  |  F |
+| 500  | 0  | 1000  |  F |
+| 999  | 0  | 1000  |  F |
+
+
+
+![millis](images/timing.gif)
+
+  ```
+  var prevMillis = 0;
+  var interval = 1000; //1 sec = 1000 milliseconds
+  var counter = 0;
+  function setup() {
+  }
+
+  function draw() {
+    background(255);
+    if(millis() - prevMillis >= interval){
+      counter++;
+      prevMillis = millis();
+    }
+      text(counter, width/2, height/2);
+  }
   ```

@@ -1,15 +1,15 @@
+var prevMillis = 0;
+var interval = 1000; //1 sec = 1000 milliseconds
+var counter = 0;
 function setup() {
-  // put setup code here
 }
 
 function draw() {
-  // put drawing code here
   background(255);
-  rect(20, 20, 20, 20);
-  if(mouseX > 20 && mouseX < 40 && mouseY > 20 && mouseY < 40){
-    fill("red");
-  }else{
-    fill("white");
-  }
+  if(millis() - prevMillis >= interval){
+    counter++;
+    prevMillis = millis();
 
+  }
+    text(counter, width/2, height/2);
 }
