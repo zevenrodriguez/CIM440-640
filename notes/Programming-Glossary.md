@@ -37,11 +37,8 @@ if(mouseX > 20 && mouseX < 40 && mouseY > 20 && mouseY < 40){
 # For Loop
 
 ```
-background(255);
 for(var i = 0; i < 10; i++){
   console.log(i); // prints 0 - 9
-  text(i, width/2, height/2);
-
 }
 ```
 
@@ -65,17 +62,21 @@ for(var i = 0; i < 10; i++){
 
   # millis() - Timing
 
+  ![millis](images/timing.gif)
+
   Allows your program to count how many milliseconds have passed since your program started running. In this example, we set an interval of 1000 milliseconds (1 second). The if statement checks to see if the difference between millis() and prevMillis is greater or equal to the interval. Once the difference is greater, prevMillis is set to millis() allowing the timing to reset.
 
-| Millis  | prevMillis  | Interval  |  True/False |
-|---|---|---|---|
-|  0 |  0 | 1000  |  F |
-| 500  | 0  | 1000  |  F |
-| 999  | 0  | 1000  |  F |
-
-
-
-![millis](images/timing.gif)
+| Millis  | prevMillis  | Interval  | Difference| True/False |
+|---|---|---|---|---|
+|  0 |  0 | 1000  | 0 |  F |
+| 500  | 0  | 1000  | 500 | F |
+| 999  | 0  | 1000  | 999 | F |
+| 1000  | 0  | 1000  | 1000 | T |
+| 1001  | 1000  | 1000  | 1 |  F |
+| 1500  | 1000  | 1000  | 500 |  F |
+| 1999  | 1000  | 1000  | 999 |  F |
+| 2001  | 1000  | 1000  | 1001 |  T |
+| 2002  | 2001  | 1000  | 1 |  F |
 
   ```
   var prevMillis = 0;
