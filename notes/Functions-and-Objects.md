@@ -113,6 +113,7 @@ function changeColors(tempR,tempG,tempB){
 
 An object is a combination of variables and functions that compose body. This body can be used multiple times and can be programed to have different characteristics and but share the same functionality.
 
+##### Single object
 ```
 var person = {
     firstName:"John",
@@ -120,5 +121,35 @@ var person = {
     age:50,
     eyeColor:"blue"
 };
+```
+
+##### Multiple Objects
+
+```
+class Boxes{
+  // Constructor: sets the variables for the object. The constructor has 2 sets of variables. A set of temporary variables that pass their values to object variables that are used with in.
+
+  constructor(tempX, tempY, tempSize, tempColor){
+    this.x = tempX;
+    this.y = tempY;
+    this.boxSize = tempSize;
+    this.boxColor = tempColor;
+  }
+
+  // You can create functions in objects to create specific actions an object can do.
+  
+  display(){
+
+    fill(this.boxColor);
+    rect(this.x,this.y,this.boxSize,this.boxSize);
+
+  }
+}
+
+var box1 = new Boxes(100,100,200,"purple");
+
+box1.display();
+
+console.log(box1.boxColor); // output: purple
 
 ```
