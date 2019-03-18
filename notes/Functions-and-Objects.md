@@ -127,7 +127,8 @@ var person = {
 
 ```
 class Boxes{
-  // Constructor: sets the variables for the object. The constructor has 2 sets of variables. A set of temporary variables that pass their values to object variables that are used with in.
+  // Constructor: sets the variables for the object. The constructor has 2 sets of variables.
+  A set of temporary variables that pass their values to object variables that are used with in.
 
   constructor(tempX, tempY, tempSize, tempColor){
     this.x = tempX;
@@ -137,7 +138,7 @@ class Boxes{
   }
 
   // You can create functions in objects to create specific actions an object can do.
-  
+
   display(){
 
     fill(this.boxColor);
