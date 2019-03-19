@@ -21,6 +21,10 @@ if(square1check == true){
   background("purple");
 }
 squareBox(50,400,30,"blue");
+var square2check = checkBox(50,400,30);
+if(square2check == true){
+  background("blue");
+}
 }
 
 //Basic function
