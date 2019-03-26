@@ -150,16 +150,18 @@ Make a creative sketch. Make a interactive sketch with 4 points of interaction. 
 
 ### Week 11 – Working with Libraries
 
-* DOM
-* Sound
-* Video
-
+* [Libraries](https://p5js.org/libraries/)
+* [Sound](https://p5js.org/reference/#/libraries/p5.sound)
+* [Video](https://p5js.org/reference/#/p5/createVideo)
 * [Interface Object with Sound and Video](CIM540-640-2R/notes/ioSoundVideo/sketch.js)
 * [ioSound Zip Files](CIM540-640-2R/notes/ioSoundVideo.zip)
 
 
 ### Week 12 – Final Project Ideation workshop
 
+* [Libraries](https://p5js.org/libraries/)
+* [DOM](https://p5js.org/reference/#/libraries/p5.dom)
+* [Intro to Data](https://p5js.org/reference/#/p5/loadTable)
 * [Idea Workshop Sheet](/files/IdeaWorkshopEdited.pdf)
 
 ### Week 13 – Final Project idea presentation
