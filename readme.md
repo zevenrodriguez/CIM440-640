@@ -154,6 +154,10 @@ Make a creative sketch. Make a interactive sketch with 4 points of interaction. 
 * Sound
 * Video
 
+* [Interface Object with Sound and Video](CIM540-640-2R/notes/ioSoundVideo/sketch.js)
+* [ioSound Zip Files](CIM540-640-2R/notes/ioSoundVideo.zip)
+
+
 ### Week 12 – Final Project Ideation workshop
 
 * [Idea Workshop Sheet](/files/IdeaWorkshopEdited.pdf)
