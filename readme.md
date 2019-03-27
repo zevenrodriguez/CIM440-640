@@ -154,6 +154,7 @@ Make a creative sketch. Make a interactive sketch with 4 points of interaction. 
 * [Sound](https://p5js.org/reference/#/libraries/p5.sound)
 * [Video](https://p5js.org/reference/#/p5/createVideo)
 * [Interface Object with Sound and Video](CIM540-640-2R/notes/ioSoundVideo/sketch.js)
+* [Interface Object with Sound, Video, and DOM](CIM540-640-2R/notes/ioSoundVideoDOM/sketch.js)
 * [ioSound Zip Files](CIM540-640-2R/notes/ioSoundVideo.zip)
 
 
