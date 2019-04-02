@@ -162,8 +162,11 @@ Make a creative sketch. Make a interactive sketch with 4 points of interaction. 
 
 * [Libraries](https://p5js.org/libraries/)
 * [DOM](https://p5js.org/reference/#/libraries/p5.dom)
+  * [Intro to DOM](CIM540-640-2R/notes/introToDOM/sketch.js)
 * [Intro to Data](https://p5js.org/reference/#/p5/loadTable)
-* [Idea Workshop Sheet](/files/IdeaWorkshopEdited.pdf)
+  * [Bar Chart](CIM540-640-2R/notes/barChart/sketch.js)
+  * [Pie Chart](CIM540-640-2R/notes/pieChart/sketch.js)
+* [Idea Workshop Sheet](/files/IdeaWorkshopEdited-Zeven.pdf)
 
 ### Week 13 – Final Project idea presentation
 
