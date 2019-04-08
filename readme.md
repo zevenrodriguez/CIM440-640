@@ -174,4 +174,7 @@ Make a creative sketch. Make a interactive sketch with 4 points of interaction. 
 
 ### Week 14 – Final Project Lab
 
-### Week 15 - Final Project Critique
+### [Week 15 - Final Project Critique](notes/Final.md)
+
+# [Interactive Media End of Year Show - May 2nd 5 PM](https://interactive.miami.edu/canesfilmfestival/)
+# Final Due May 7th 2-4:30 PM

@@ -1,7 +1,5 @@
 # Make an interactive sketch.
 
-## Due Wednesday May 9th
-
 #### Requirements
 
 * Create a readme.md (include the following):
