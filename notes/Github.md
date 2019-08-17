@@ -14,9 +14,7 @@ Their are severial ways you can use git:
 
 Github is a service that hosts git repositories remotely. It is like a Dropbox or Google Drive for code. Once you initialize your repository you can link it with a github repository. The easiest way to create a repository and link it is with the Github Desktop app. Below you’ll see how to create a local repo and upload it to Github.
 
-### CREATING A REPO
-
-#### [Creating a repository with Github Desktop Slides](../files/Github.pdf)
+### [Creating a repository with Github Desktop Slides](../files/Github.pdf)
 
 #### [Creating a repository with Github Desktop Video](https://vimeo.com/251362770)
 
