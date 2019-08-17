@@ -1,22 +1,23 @@
 
-# CIM 540-640-2R - Intro to Creative Coding
+# CIM 440 - Intro to Creative Coding - Fall Semester 2019
 
-#### Tu 2:00 – 4:30PM
+#### CIM440-34 Wolfson 3034 MoWe 12:20PM - 1:35PM
+#### CIM440-P Wolfson 3040 TuTh 11:00AM - 12:15PM
 
-#### Fall Semester 2018
+### Instructor -Zevensuy Rodriguez
 
 * Email: zevenrodriguez@miami.edu
-* Office UM School of Communication Francis L. Wolfson Building 2nd Fl Room 2022
+* Office UM School of Communication Francis L. Wolfson Building 2nd Fl Room 2014
 * Office Hours
-  * Tuesday 10AM-12PM
-  * Thursday 10AM-12PM
   * To sign up for office hours please visit https://calendly.com/zevenrodriguez
+
+# Resourses
 
 ### [Notes](/notes)
 
-### [Syllabus](CIM540-640-2R-IntrotoCreativeCoding.pdf)
+### [Syllabus](CIM440-640-2R-IntrotoCreativeCoding.pdf)
 
-### [Assignments](https://github.com/zevenrodriguez/CIM540-640/blob/master/notes/Assignments.md)
+### [Assignments](https://github.com/zevenrodriguez/CIM440-640/blob/master/notes/Assignments.md)
 
 ## Calendar
 
@@ -31,16 +32,16 @@
 
 ### Week 2 - Github and Basic Drawing
 
-* [Intro to p5js](https://github.com/zevenrodriguez/CIM540-640/blob/master/notes/Intro-To-p5js.md)
+* [Intro to p5js](https://github.com/zevenrodriguez/CIM440-640/blob/master/notes/Intro-To-p5js.md)
   * 2D Primatives
   * text()
   * Variables
 * [Github](/notes/Github.md)
 
 #### Class Examples
-* [character](CIM540-640-2R/notes/character)
-* [character class](CIM540-640-2R/notes/character-class)
-* [character class with variables](CIM540-640-2R/notes/character-var-class)
+<!-- * [character](CIM440-640-2R/notes/character)
+* [character class](CIM440-640-2R/notes/character-class)
+* [character class with variables](CIM440-640-2R/notes/character-var-class) -->
 
 #### HW
 
@@ -57,7 +58,7 @@ Create a character or piece of art using shapes.
 * [Github](/notes/Github.md)
 
 #### Class Examples
-* [Basic interaction](CIM540-640-2R/notes/basicInteraction)
+<!-- * [Basic interaction](CIM440-640-2R/notes/basicInteraction) -->
 
 #### HW
 
@@ -68,10 +69,10 @@ Using your character or piece of art add 2 methods of interaction, Use any of th
 * Buttons
 * Images
 * if elseif else
-* [Week4 Start Files](CIM540-640-2R/notes/week4Start.zip)
-* [basicImageandButtons](CIM540-640-2R/notes/basicImageandButtons)
-* [basicImageButtonsArray](CIM540-640-2R/notes/basicImageButtonsArray)
-* [coloringBookHitzones](CIM540-640-2R/notes/coloringBookHitzones)
+<!-- * [Week4 Start Files](CIM440-640-2R/notes/week4Start.zip)
+* [basicImageandButtons](CIM440-640-2R/notes/basicImageandButtons)
+* [basicImageButtonsArray](CIM440-640-2R/notes/basicImageButtonsArray)
+* [coloringBookHitzones](CIM440-640-2R/notes/coloringBookHitzones) -->
 
 #### HW
 
@@ -85,24 +86,24 @@ Use buttons or hitzones to show and hide a shape.
 
 #### Class files
 
-* [StoryBook Start Files](CIM540-640-2R/notes/storybook.zip)
-* [StoryBook](CIM540-640-2R/notes/storybook/sketchFinished.js)
-* [StoryBook with Arrays](CIM540-640-2R/notes/storybook/sketchArray.js)
+<!-- * [StoryBook Start Files](CIM440-640-2R/notes/storybook.zip)
+* [StoryBook](CIM440-640-2R/notes/storybook/sketchFinished.js)
+* [StoryBook with Arrays](CIM440-640-2R/notes/storybook/sketchArray.js) -->
 
 
 
 ### Week 6 - Animation and Push/Pop
 
-* [random()](https://p5js.org/reference/#/p5/random)
+<!-- * [random()](https://p5js.org/reference/#/p5/random)
 * [push() pop()](https://p5js.org/reference/#/p5/push)
-* [Select list](https://p5js.org/reference/#/p5/createSelect)
+* [Select list](https://p5js.org/reference/#/p5/createSelect) -->
 
 #### Class Examples
 
-* [Trivia](CIM540-640-2R/notes/trivia/sketch.js)
-* [Trivia with Millis](CIM540-640-2R/notes/triviaMillis/sketch.js)
-* [Poll](CIM540-640-2R/notes/pollObject/sketch.js)
-* [Seasons](CIM540-640-2R/notes/seasons/sketch.js)
+<!-- * [Trivia](CIM440-640-2R/notes/trivia/sketch.js)
+* [Trivia with Millis](CIM440-640-2R/notes/triviaMillis/sketch.js)
+* [Poll](CIM440-640-2R/notes/pollObject/sketch.js)
+* [Seasons](CIM440-640-2R/notes/seasons/sketch.js) -->
 
 #### HW
 
@@ -150,22 +151,22 @@ Make a creative sketch. Make a interactive sketch with 4 points of interaction. 
 
 ### Week 11 – Working with Libraries
 
-* [Libraries](https://p5js.org/libraries/)
+<!-- * [Libraries](https://p5js.org/libraries/)
 * [Sound](https://p5js.org/reference/#/libraries/p5.sound)
 * [Video](https://p5js.org/reference/#/p5/createVideo)
-* [Interface Object with Sound and Video](CIM540-640-2R/notes/ioSoundVideo/sketch.js)
-* [Interface Object with Sound, Video, and DOM](CIM540-640-2R/notes/ioSoundVideoDOM/sketch.js)
-* [ioSound Zip Files](CIM540-640-2R/notes/ioSoundVideo.zip)
+* [Interface Object with Sound and Video](CIM440-640-2R/notes/ioSoundVideo/sketch.js)
+* [Interface Object with Sound, Video, and DOM](CIM440-640-2R/notes/ioSoundVideoDOM/sketch.js)
+* [ioSound Zip Files](CIM440-640-2R/notes/ioSoundVideo.zip) -->
 
 
 ### Week 12 – Final Project Ideation workshop
 
 * [Libraries](https://p5js.org/libraries/)
 * [DOM](https://p5js.org/reference/#/libraries/p5.dom)
-  * [Intro to DOM](CIM540-640-2R/notes/introToDOM/sketch.js)
+  <!-- * [Intro to DOM](CIM440-640-2R/notes/introToDOM/sketch.js) -->
 * [Intro to Data](https://p5js.org/reference/#/p5/loadTable)
-  * [Bar Chart](CIM540-640-2R/notes/barChart/sketch.js)
-  * [Pie Chart](CIM540-640-2R/notes/pieChart/sketch.js)
+  <!-- * [Bar Chart](CIM440-640-2R/notes/barChart/sketch.js) -->
+  <!-- * [Pie Chart](CIM440-640-2R/notes/pieChart/sketch.js) -->
 * [Idea Workshop Sheet](/files/IdeaWorkshopEdited-Zeven.pdf)
 
 ### Week 13 – Final Project idea presentation
@@ -176,5 +177,11 @@ Make a creative sketch. Make a interactive sketch with 4 points of interaction. 
 
 ### [Week 15 - Final Project Critique](notes/Final.md)
 
-# [Interactive Media End of Year Show - May 2nd 5 PM](https://interactive.miami.edu/canesfilmfestival/)
-# Final Due May 7th 2-4:30 PM
+# Final Due:
+### CIM440-34 Monday Dec. 9th 11:00AM – 1:30PM
+### CIM440-P Tuesday Dec. 10th 11:00AM – 1:30PM
+
+
+
+<!-- # [Interactive Media End of Year Show - May 2nd 5 PM](https://interactive.miami.edu/canesfilmfestival/)
+# Final Due May 7th 2-4:30 PM -->
