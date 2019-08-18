@@ -25,3 +25,11 @@ http://research.google.com/bigpicture/music/
 http://gagemotion.com/
 
 http://googlecreativelab.github.io/anypixel/
+
+https://www.nytimes.com/interactive/2019/08/15/opinion/gamergate-twitter.html
+
+[eMotion with the Leap Motion - Pepper’s Ghost technique](https://vimeo.com/71216887)
+
+[Ant Man Pointer](https://gfycat.com/meeklegalgallinule)
+
+[iQ Font](https://vimeo.com/5233789)
