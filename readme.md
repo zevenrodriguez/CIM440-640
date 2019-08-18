@@ -15,9 +15,11 @@
 
 ### [Notes](/notes)
 
-### [Syllabus](CIM440-640-2R-IntrotoCreativeCoding.pdf)
+### [Syllabus](CIM440-IntrotoCreativeCoding-General.pdf)
 
 ### [Assignments](https://github.com/zevenrodriguez/CIM440-640/blob/master/notes/Assignments.md)
+*All Assignments to be submitted through Microsoft Teams*
+
 
 ## Calendar
 
