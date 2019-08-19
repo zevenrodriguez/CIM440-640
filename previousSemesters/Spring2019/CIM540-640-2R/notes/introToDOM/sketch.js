@@ -8,7 +8,7 @@ function setup() {
   var container0 = createDiv();
 
   container0.id("container0");
-  
+
   select("#container0").html("<h1>Your sketch title here!</h1>");
 
   cnv.parent(container0);
