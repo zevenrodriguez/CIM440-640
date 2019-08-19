@@ -33,3 +33,9 @@ https://www.nytimes.com/interactive/2019/08/15/opinion/gamergate-twitter.html
 [Ant Man Pointer](https://gfycat.com/meeklegalgallinule)
 
 [iQ Font](https://vimeo.com/5233789)
+
+https://experiments.withgoogle.com/body-synth
+
+https://experiments.withgoogle.com/collection/chrome
+
+https://musiclab.chromeexperiments.com/Experiments
