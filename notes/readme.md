@@ -18,6 +18,7 @@
 ## Resources
 
 * [Markdown](Markdown.md)
+* [Web Colors](WebColors.md)
 * [Copywrite](Copywrite.md)
 * [p5js Reference](https://p5js.org/reference/)
 * [Dan Shiffman Learning p5js](https://vimeo.com/channels/learningp5js/)
