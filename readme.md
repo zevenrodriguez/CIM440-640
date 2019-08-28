@@ -30,7 +30,7 @@
 
 #### HW
 
-* [The Impossible App](/notes/Assignments.md#1-homework---impossible-app)
+<!-- * [The Impossible App](/notes/Assignments.md#1-homework---impossible-app) -->
 
 ### Week 2 - Github and Basic Drawing
 
