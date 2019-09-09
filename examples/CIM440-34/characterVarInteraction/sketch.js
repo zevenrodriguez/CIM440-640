@@ -3,6 +3,7 @@ var pointY = 0;
 
 var point2; // variable undefined
 
+var faceColor = "blue";
 
 function setup() {
   // put setup code here
@@ -22,8 +23,9 @@ function draw() {
   //pointY = 100;
   pointX = mouseX;
   pointY = mouseY;
-
-  rect(pointX -100 ,pointY -100,200,200);//face
+  fill(faceColor);
+  rect(pointX -100 ,pointY -100,200,200);
+  fill(255);
   ellipse(pointX, pointY, 10,10);
   ellipse(pointX + 20, pointY -20, 30,30);
   ellipse(pointX - 20, pointY -20, 30,30);
@@ -34,3 +36,18 @@ function draw() {
   //ellipse(point2, point2, 10,10);
 
 }//end of draw
+
+
+
+function mousePressed(){
+  faceColor = "red";
+}
+
+
+function mouseReleased(){
+  faceColor = "blue";
+}
+
+function keyPressed(){
+  faceColor = "white";
+}
