@@ -1,4 +1,4 @@
-## 1. Homework - Impossible App
+<!-- ## 1. Homework - Impossible App
 
 * Create the impossible application:
  * Create an impossible application, this application can be useful or be self servient. The most important is to think about how a user is going to operate your application. Think about each step the user is going to take. Have fun with this! Feel free to illustrate your application on paper.
@@ -14,15 +14,27 @@
 
 ##### The De-atomizer: Universal Trash Converter
 
-![Deatomizer](https://github.com/zevenrodriguez/CIM542-642/blob/master/files/deatomizer.jpg)
+![Deatomizer](https://github.com/zevenrodriguez/CIM542-642/blob/master/files/deatomizer.jpg) -->
 
-## 2. Homework
+# Uploading HW to Github
+
+Using the repository we created in class.
+
+![Put the Homework Files in Folder](../slides/homework.jpg)
+![Commit the Changes and Push](../slides/commit.jpg)
+![Go to your repository on Gihub.com](../slides/gotogithub.jpg)
+![Visit your uploaded document](../slides/githublink.jpg)
+
+*If you make any additional changes please make sure to save and upload your assignment again*
+
+
+## 1. Homework
 
 Create a character or piece of art using shapes.
 
 * Use 5 different variables to represent position, color (10 points)
 
-## 3. Homework
+## 2. Homework
 
 Using your character or piece of art add 2 methods of interaction, Use any of the interactive methods we used in class.
 
@@ -32,15 +44,15 @@ Using your character or piece of art add 2 methods of interaction, Use any of th
 * keyPressed()
 * if statement
 
-## 4. Homework
+## 3. Homework
 
 Use an image array to create a 4 page storybook or a Drawing Application. Must use 4 buttons or hit-zones to interact with your application.
 
-## 5. Homework
+## 4. Homework
 
 Generative art: Use shapes or images to create 2 pattern based compositions
 
-## 6. Homework
+## 5. Homework
 
 Write a one paragraph proposal explaining your midterm project. Include a title, what assets, and interactions you want to include i.e.
 
