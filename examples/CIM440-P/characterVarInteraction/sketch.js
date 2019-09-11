@@ -1,6 +1,6 @@
+// These variables are avaible to use throughout our entire program
 var pointX = 0;
 var pointY = 0;
-
 var faceColor = "purple";
 
 function setup() {
@@ -9,6 +9,7 @@ function setup() {
   pointX = width/2;
   pointY = height/2;
   console.log("pointX " + pointX + " pointY " + pointY );
+
 }
 
 function draw() {

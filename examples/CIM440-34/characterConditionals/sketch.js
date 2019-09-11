@@ -27,7 +27,22 @@ function setup() {
 
 function draw() {
   // put drawing code here
-  background(255);
+
+  // Use an if statement to change background color
+  // what is going to be our condition
+
+  if(mouseX < width/2){
+    //do something
+    console.log("left hand side");
+    background(255);
+
+  }
+
+  if(mouseX > width/2){
+    console.log("right hand side");
+    background("grey");
+  }
+
   //pointX = 100;
   //pointY = 100;
   pointX = mouseX;
@@ -58,5 +73,28 @@ function mouseReleased(){
 }
 
 function keyPressed(){
-  faceColor = "white";
-}
+
+  console.log("key " + key);
+  console.log("keyCode " + keyCode);
+  //conditional: if condition equals true, then do what is inside curly braces.
+  // == means one side equals the other
+  if(key == "w"){
+    //what you want to happen goes in here
+   faceColor = "white";
+  }
+
+  if(key == "r"){
+    faceColor = "red";
+  }
+
+
+}//end of keypressed
+
+
+
+
+
+
+
+
+//end of document
