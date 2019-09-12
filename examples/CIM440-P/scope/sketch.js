@@ -1,24 +1,26 @@
-// These variables are avaible to use throughout our entire program
+//Global variables, these are available throughout you program
+var faceColor = "blue";
 var pointX = 0;
-var pointY = 0;
-var faceColor = "purple";
 
 function setup() {
   // put setup code here
-  createCanvas(400,400);
 
-  var message = "Hello"; //The scope of this variable is only available inside of the setup function. If used in draw or any other function, you will receive an error!
+  //if you declare a variables inside of a block of code ie {}, that variable will only available inside of that block
+
+  var message = "Hello";
+
   console.log(message);
-  //console.log(drawMessage);//error: drawMessage is not defined, drawMessage was declared only in the draw
+
+  //console.log(drawMessage); error not defined, because drawMessage's variable scope is inside of the draw loop
+
 }
 
 function draw() {
   // put drawing code here
 
-  //console.log(message); //error: message is not defined, because the message variable is only in the setup's scope
-  var drawMessage = "This message is in the draw loop";
+  //console.log(messsage); Error: not defined, because message variable scope is only inside the setup
+
+  var drawMessage = "this message is in the draw loop"; // This creates a new variable everytime the draw loop happens
+
   console.log(drawMessage);
-
-
-
-}// end of draw
+}

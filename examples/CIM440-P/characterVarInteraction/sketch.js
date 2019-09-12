@@ -3,6 +3,8 @@ var pointX = 0;
 var pointY = 0;
 var faceColor = "purple";
 
+var faceButton;
+
 function setup() {
   // put setup code here
   createCanvas(400,400);
@@ -10,15 +12,38 @@ function setup() {
   pointY = height/2;
   console.log("pointX " + pointX + " pointY " + pointY );
 
+  faceButton = createButton("Click to turn orange");
+  faceButton.position(20,20);
+  faceButton.mousePressed(function(){
+    //your action goes in here
+    //The button mousepressed function is tied to the general mousepressed function
+    faceColor = "orange";
+
+  });
 }
 
 function draw() {
   // put drawing code here
-  background(255);
+
+
+
+  //I want to change the background based, split screen vertically
+
+  if(mouseX < width/2){
+    console.log("left hand side");
+      background(255);
+  }
+
+  if(mouseX > width/2){
+    console.log("right hand side");
+    background("green");
+  }
+
+
   pointX = mouseX;
   pointY = mouseY;
 
-  console.log("pointX " + pointX + " pointY " + pointY );
+  //console.log("pointX " + pointX + " pointY " + pointY );
   fill(faceColor);
   rect(pointX-100,pointY-100,200,200);
 
@@ -35,13 +60,30 @@ function draw() {
 
 
 function mousePressed(){
-  faceColor = "red";
+  //faceColor = "red";
 }
 
 function mouseReleased(){
-  faceColor = "purple";
+  //faceColor = "purple";
 }
 
 function keyPressed(){
-  faceColor = "blue";
+
+  console.log("key " + key);
+  console.log("keyCode " + keyCode);
+
+  // if statement is true, then execute code inside {}
+  // == if oneside equals the other
+  // if you press b, then key becomes "b" == "b" which is true
+  // key returns a character
+  if(key == "b"){
+      faceColor = "blue";
+  }
+
+// if you press r, then keyCode becomes 82, 82 == 82 which is true
+//keycode returns a number
+  if(keyCode == 82){
+    faceColor = "red";
+  }
+
 }
