@@ -28,15 +28,20 @@ function draw() {
 
 
   //I want to change the background based, split screen vertically
-
+//mouseX is less than but not including 200 or width/2
   if(mouseX < width/2){
     console.log("left hand side");
       background(255);
   }
-
+  //mouseX is greater than but not including 200 or width/2
   if(mouseX > width/2){
     console.log("right hand side");
     background("green");
+  }
+
+  if(mouseX == width/2){
+    background("blue");
+    console.log("center");
   }
 
 
