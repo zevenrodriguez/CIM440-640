@@ -40,10 +40,9 @@ function draw() {
   }
 
   if(mouseX == width/2){
-    background("blue");
     console.log("center");
+    background("yellow");
   }
-
 
   pointX = mouseX;
   pointY = mouseY;

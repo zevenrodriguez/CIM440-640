@@ -1,100 +1,93 @@
+// These variables are avaible to use throughout our entire program
 var pointX = 0;
 var pointY = 0;
+var faceColor = "purple";
 
-var point2; // variable undefined
-
-var faceColor = "blue";
-
-var colorButton;
+var faceButton;
 
 function setup() {
   // put setup code here
-  createCanvas(500,500);
+  createCanvas(400,400);
   pointX = width/2;
   pointY = height/2;
+  console.log("pointX " + pointX + " pointY " + pointY );
 
-  console.log("pointX " + pointX + " pointY " + pointY);
+  faceButton = createButton("Click to turn orange");
+  faceButton.position(20,20);
+  faceButton.mousePressed(function(){
+    //your action goes in here
+    //The button mousepressed function is tied to the general mousepressed function
+    faceColor = "orange";
 
-  console.log(point2);
-
-  colorButton = createButton("Click to turn purple");//function that is part of p5.dom library, It generates an html button;
-  colorButton.position(20,20);
-  colorButton.mousePressed(function(){
-    faceColor = "purple";
   });
-
 }
 
 function draw() {
   // put drawing code here
 
-  // Use an if statement to change background color
-  // what is going to be our condition
 
+
+  //I want to change the background based, split screen vertically
+//mouseX is less than but not including 200 or width/2
   if(mouseX < width/2){
-    //do something
     console.log("left hand side");
-    background(255);
-
+      background(255);
   }
-
+  //mouseX is greater than but not including 200 or width/2
   if(mouseX > width/2){
     console.log("right hand side");
-    background("grey");
+    background("green");
   }
 
-  //pointX = 100;
-  //pointY = 100;
+  if(mouseX == width/2){
+    console.log("center");
+    background("yellow");
+  }
+
   pointX = mouseX;
   pointY = mouseY;
-  fill(faceColor);
-  rect(pointX -100 ,pointY -100,200,200);
-  fill(255);
-  ellipse(pointX, pointY, 10,10);
-  ellipse(pointX + 20, pointY -20, 30,30);
-  ellipse(pointX - 20, pointY -20, 30,30);
 
-  // arc(x,y,width,height,start,end)
+  //console.log("pointX " + pointX + " pointY " + pointY );
+  fill(faceColor);
+  rect(pointX-100,pointY-100,200,200);
+
+  ellipse(pointX,pointY, 10,10);//nose
+
+  ellipse(pointX + 20,pointY -20,30,30);// right eye
+  ellipse(pointX - 20, pointY -20, 30,30);//left eye
   arc(pointX,pointY + 10,50,50,0,PI);
 
-  //ellipse(point2, point2, 10,10);
 
-}//end of draw
 
+
+}// end of draw
 
 
 function mousePressed(){
   //faceColor = "red";
 }
 
-
 function mouseReleased(){
-  //faceColor = "blue";
+  //faceColor = "purple";
 }
 
 function keyPressed(){
 
   console.log("key " + key);
   console.log("keyCode " + keyCode);
-  //conditional: if condition equals true, then do what is inside curly braces.
-  // == means one side equals the other
-  if(key == "w"){
-    //what you want to happen goes in here
-   faceColor = "white";
+
+  // if statement is true, then execute code inside {}
+  // == if oneside equals the other
+  // if you press b, then key becomes "b" == "b" which is true
+  // key returns a character
+  if(key == "b"){
+      faceColor = "blue";
   }
 
-  if(key == "r"){
+// if you press r, then keyCode becomes 82, 82 == 82 which is true
+//keycode returns a number
+  if(keyCode == 82){
     faceColor = "red";
   }
 
-
-}//end of keypressed
-
-
-
-
-
-
-
-
-//end of document
+}
