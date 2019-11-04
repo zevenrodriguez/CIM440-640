@@ -48,6 +48,8 @@ function mousePressed(){
     soundFile.stop();
     soundFile.play();
     cowVid.show();
+    cowVid.style("display", "inline-block");// puts html elements next to each other
+
     cowVid.play();
   }
 }
